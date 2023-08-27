@@ -3,3 +3,4 @@ env/
 __pycache__/
 
 ofertas.txt
+proxies.py
