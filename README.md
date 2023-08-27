@@ -8,6 +8,7 @@ Este proyecto permite al usuario ingresar un origen y buscar ofertas de vuelos a
 - `headers.py`: Define los headers para hacer las solicitudes a la API, incluida la autenticación.
 - `request.py`: Contiene las funciones necesarias para interactuar con el usuario, definir los parámetros de búsqueda, consumir la API y procesar los datos.
 - `requiriments.txt`: Contiene las librerias necesarias para correr el proyecto.
+- `get_destinos.py`: Contiene las funciones para obtener el archivo JSON con los posibles destinos.
 
 ## Pre-requisitos
 
