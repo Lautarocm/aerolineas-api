@@ -1,17 +1,16 @@
-import requests
 import datetime
-from destinos import destinos_argentina_filtrados
-
+import asyncio
+import aiohttp
 from headers import headers
+import json
 
 def ingresar_origen():
     return input("origen:")
 
-def definir_destinos(destinos):
-    arr_destinos = []
-    for destino in destinos:
-        arr_destinos.append(destino["codigo"])
-    return arr_destinos
+def definir_destinos():
+    with open("destinos_Argentina.json", "r") as destinos:
+        json_destinos = json.load(destinos)
+        return [destino["id"].upper() for destino in json_destinos]
 
 def definir_fechas():
     arr_fechas = []
@@ -45,58 +44,66 @@ def armar_url(origen, destinos, fechas):
     clase = "Economy"
     tramo = "ONE_WAY"
     for fecha in fechas:
-        for destino in destinos:
-            params = f"?adt={adultos}&inf={bebes}&chd={chicos}&flexDates={fechas_flexibles}&cabinClass={clase}&flightType={tramo}&leg={origen}-{destino}-{fecha}"
-            arr_urls.append(endpoint + params)
+                #Este bloque busca en un solo destinopara evitar baneo de ip, por eso uso {destinos[3]}, para buscar en el 4 destino del JSON
+        params = f"?adt={adultos}&inf={bebes}&chd={chicos}&flexDates={fechas_flexibles}&cabinClass={clase}&flightType={tramo}&leg={origen}-{destinos[3]}-{fecha}"
+        arr_urls.append(endpoint + params)
+
+            # usar este bloque de codigo cuando se utilicen proxies para buscar en multiples destinos
+        # for destino in destinos:
+        #     params = f"?adt={adultos}&inf={bebes}&chd={chicos}&flexDates={fechas_flexibles}&cabinClass={clase}&flightType={tramo}&leg={origen}-{destino}-{fecha}"
+        #     arr_urls.append(endpoint + params)
+
     return arr_urls
 
-def consumir_api(urls, headers):
-    arr_respuestas = []
-    for url in urls:
-        respuesta = requests.get(url, headers=headers)
-        if respuesta.status_code == 200:
-            arr_respuestas.append(respuesta.json()["calendarOffers"])
-        else:
-            print(f"Error: {respuesta.status_code}")
-    return  arr_respuestas
+async def fetch_url(session, url):
+    try:
+        async with session.get(url, headers=headers) as response:
+            return await response.json()
+    except aiohttp.ClientError as e:
+        print(f"Error: {e}")
+        return None
+        
 
-def limpiar_datos(respuestas):
+async def limpiar_datos(respuestas):
     arr_ofertas = []
 
     for respuesta in respuestas:
-        ofertas = respuesta["0"]
-        for oferta in ofertas:
-            if oferta["offerDetails"]:
-                destino = oferta["leg"]["segments"][0]["destination"]
-                precio = oferta["offerDetails"]["fare"]["total"]
-                anio, mes, dia = oferta["departure"].split("-")
-                piripipi = {
-                    "fecha": f"{dia:02}/{mes:02}/{anio:04}",
-                    "destino": destino,
-                    "precio": precio
-                }
-                arr_ofertas.append(piripipi)
-    
+        if respuesta is not None and "calendarOffers" in respuesta:
+            ofertas = respuesta["calendarOffers"]["0"]
+            for oferta in ofertas:
+                if oferta.get("offerDetails"):
+                    destino = oferta["leg"]["segments"][0]["destination"]
+                    precio = oferta["offerDetails"]["fare"]["total"]
+                    anio, mes, dia = oferta["departure"].split("-")
+                    dict_oferta = {
+                        "fecha": f"{dia:02}/{mes:02}/{anio:04}",
+                        "destino": destino,
+                        "precio": precio
+                    }
+                    arr_ofertas.append(dict_oferta)
 
     return arr_ofertas
 
 def ordenar_precios(ofertas):
-    precios_ordenados = sorted(ofertas, key=lambda d: d['precio'])
-
-    return precios_ordenados
+    return sorted(ofertas, key=lambda d: d['precio'])
 
 def guardar_ofertas(precios_ordenados):
     ofertas = open("ofertas.txt", 'w')
     ofertas.write(str(precios_ordenados).replace("}, ", "}\n").replace("[", "").replace("]", "").replace("{", "").replace("}", "").replace("'", "").replace("precio: ", "precio: $"))
 
-def main():
+async def main():
     origen = ingresar_origen()
-    destinos = definir_destinos(destinos_argentina_filtrados)
+    destinos = definir_destinos()
     fechas = definir_fechas()
     urls = armar_url(origen, destinos, fechas)
-    respuestas = consumir_api(urls, headers)
-    ofertas = limpiar_datos(respuestas)
+
+    async with aiohttp.ClientSession() as session:
+        tasks = [fetch_url(session, url) for url in urls]
+        responses = await asyncio.gather(*tasks)
+
+    ofertas = await limpiar_datos(responses)
     precios_ordenados = ordenar_precios(ofertas)
     guardar_ofertas(precios_ordenados)
 
-main()
+if __name__ == "__main__":
+    asyncio.run(main())
