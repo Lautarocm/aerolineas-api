@@ -18,7 +18,7 @@ Este proyecto permite al usuario ingresar un origen y buscar ofertas de vuelos a
 ## Configuración
 
 1. Clona este repositorio.
-2. Crea un entorno virtual en la raíz del proyecto
+2. Crea un entorno virtual en la raíz del proyecto.
 3. Crea un archivo `.env` en la raíz del proyecto.
 4. En el archivo `.env`, establece tu clave de API:
 
