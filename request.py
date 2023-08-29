@@ -9,10 +9,10 @@ def leer_json(filename):
         return json.load(json_file)
 
 def ingresar_origen():
-    return input("origen:")
+    return input("Origen: ")
 
 def definir_destinos():
-    json_destinos = leer_json("destinos_argentina.json")[0]["destinos_filtrados"]
+    json_destinos = leer_json("destinos_argentina.json")[0]["destinos"]
     return [destino["id"].upper() for destino in json_destinos]
 
 def definir_fechas():
@@ -47,20 +47,21 @@ def armar_url(origen, destinos, fechas):
     clase = "Economy"
     tramo = "ONE_WAY"
     for fecha in fechas:
-                #Este bloque busca en un solo destinopara evitar baneo de ip, por eso uso {destinos[3]}, para buscar en el 4 destino del JSON
-        # params = f"?adt={adultos}&inf={bebes}&chd={chicos}&flexDates={fechas_flexibles}&cabinClass={clase}&flightType={tramo}&leg={origen}-{destinos[3]}-{fecha}"
-        # arr_urls.append(endpoint + params)
+                #Este bloque busca en un solo destino para evitar baneo de ip por exceso de peticiones, por eso uso {destinos[3]}, para buscar en un solo destino del JSON
+        params = f"?adt={adultos}&inf={bebes}&chd={chicos}&flexDates={fechas_flexibles}&cabinClass={clase}&flightType={tramo}&leg={origen}-{destinos[3]}-{fecha}"
+        arr_urls.append(endpoint + params)
 
-            # usar este bloque de codigo cuando se utilicen proxies para buscar en multiples destinos
-        for destino in destinos:
-            params = f"?adt={adultos}&inf={bebes}&chd={chicos}&flexDates={fechas_flexibles}&cabinClass={clase}&flightType={tramo}&leg={origen}-{destino}-{fecha}"
-            arr_urls.append(endpoint + params)
+            # Este bloque de codigo busca en multiples destinos. iMPORTANTE! ROTAR IPs PARA EVITAR BANEO
+        # for destino in destinos:
+        #     params = f"?adt={adultos}&inf={bebes}&chd={chicos}&flexDates={fechas_flexibles}&cabinClass={clase}&flightType={tramo}&leg={origen}-{destino}-{fecha}"
+        #     arr_urls.append(endpoint + params)
 
     return arr_urls
 
 async def fetch_url(session, url):
     try:
         async with session.get(url, headers=headers) as response:
+            print(response.status)
             return await response.json()
     except aiohttp.ClientError as e:
         print(f"Error: {e}")
@@ -71,7 +72,7 @@ async def limpiar_datos(respuestas):
     arr_ofertas = []
 
     for respuesta in respuestas:
-        if "calendarOffers" in respuesta:
+        if "calendarOffers" in respuesta and "0" in respuesta["calendarOffers"]:
             ofertas = respuesta["calendarOffers"]["0"]
             for oferta in ofertas:
                 if oferta.get("offerDetails"):
