@@ -12,7 +12,7 @@ def input_origin():
     return input("Origen: ")
 
 def set_destination():
-    json_destinations = read_json("destinations.json")[0]["destinos"]
+    json_destinations = read_json("./scraping/destinations.json")[0]["destinos"]
     return [destination["id"].upper() for destination in json_destinations]
 
 def set_date():
@@ -77,7 +77,7 @@ async def clean_data(responses):
             for offer in offers:
                 if offer.get("offerDetails"):
                     city_code = offer["leg"]["segments"][0]["destination"].lower()
-                    json_destinations = read_json("destinations.json")[0]["destinos"]
+                    json_destinations = read_json("./scraping/destinations.json")[0]["destinos"]
                     city_name = ""
                     for destination in json_destinations:
                         if city_code == destination["id"]:
@@ -98,7 +98,7 @@ def sort_offers(offers):
     return sorted(offers, key=lambda d: d['precio'])
 
 def save_offers(sorted_offers):
-    offers = open("offers.txt", 'w', encoding="utf-8")
+    offers = open("./scraping/offers.txt", 'w', encoding="utf-8")
     offers.write(str(sorted_offers).replace("}, ", "}\n").replace("[", "").replace("]", "").replace("{", "").replace("}", "").replace("'", "").replace("precio: ", "precio: $"))
 
 async def main():
