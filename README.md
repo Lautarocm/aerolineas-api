@@ -29,7 +29,7 @@ API_KEY=tu_clave_de_api_aqui
 5. Instala las librerias necesarias:
 
 ```sh
-pip install -r requirements.txt
+pip install -r scraping/requirements.txt
 ```
 
 ## Uso
