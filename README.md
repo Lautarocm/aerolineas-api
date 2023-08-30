@@ -4,11 +4,11 @@ Este proyecto permite al usuario ingresar un origen y buscar ofertas de vuelos a
 
 ## Contenido
 
-- `destinos_argentina.json`: Contiene destinos de vuelo en Argentina.
+- `destinations.json`: Contiene destinos de vuelo en Argentina.
 - `headers.py`: Define los headers para hacer las solicitudes a la API, incluida la autenticación.
 - `request.py`: Contiene las funciones necesarias para interactuar con el usuario, definir los parámetros de búsqueda, consumir la API y procesar los datos.
 - `requiriments.txt`: Contiene las librerias necesarias para correr el proyecto.
-- `get_destinos.py`: Contiene las funciones para obtener el archivo JSON con los posibles destinos.
+- `get_destinations.py`: Contiene las funciones para obtener el archivo JSON con los posibles destinos.
 
 ## Pre-requisitos
 
@@ -40,11 +40,11 @@ Ejecuta `request.py`:
 python request.py
 ```
 
-A continuación, introduce el código de ciudad de origen cuando se te solicite. El programa buscará ofertas de vuelos desde esa ciudad a los destinos elegidos para las próximas fechas y guardará los resultados en `ofertas.txt`.
+A continuación, introduce el código de ciudad de origen cuando se te solicite. El programa buscará ofertas de vuelos desde esa ciudad a los destinos elegidos para las próximas fechas y guardará los resultados en `offers.txt`.
 
 ## Resultados
 
-Los resultados se guardarán en un archivo llamado `ofertas.txt`. Las ofertas estarán ordenadas por precio y mostrarán la fecha, el destino y el precio de cada oferta.
+Los resultados se guardarán en un archivo llamado `offers.txt`. Las ofertas estarán ordenadas por precio y mostrarán la fecha, el destino y el precio de cada oferta.
 
 ## Nota
 
