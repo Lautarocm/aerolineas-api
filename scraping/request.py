@@ -3,17 +3,32 @@ import asyncio
 import aiohttp
 from headers import headers
 import json
+import uuid
+
+
 
 def read_json(filename):
     with open(filename, "r", encoding="utf-8") as json_file:
         return json.load(json_file)
+    
+
+
+def save_json(filename, dict):
+    with open(filename, "w", encoding="utf-8") as json_file:
+        json.dump(dict, json_file)
+
+
 
 def input_origin():
     return input("Origen: ")
 
+
+
 def set_destination():
     json_destinations = read_json("./scraping/destinations.json")[0]["destinos"]
     return [destination["id"].upper() for destination in json_destinations]
+
+
 
 def set_date():
     dates_list = []
@@ -37,6 +52,8 @@ def set_date():
     
     return dates_list
 
+
+
 def set_url(origin, destinations, dates):
     urls_list = []
     endpoint = "https://api.aerolineas.com.ar/v1/flights/offers"
@@ -58,48 +75,80 @@ def set_url(origin, destinations, dates):
 
     return urls_list
 
+
+
 async def fetch_url(session, url):
     try:
         async with session.get(url, headers=headers) as response:
-            print(response.status)
-            return await response.json()
+            if response.status == 200:
+                print(response.status)
+                return await response.json()
+            else:
+                print(f"error {response.status}")
     except aiohttp.ClientError as e:
         print(f"Error: {e}")
         return None
-        
+    
 
-async def clean_data(responses):
-    offers_list = []
 
+def get_city_name(city_code):
+    json_destinations = read_json("./scraping/destinations.json")[0]["destinos"]
+    for destination in json_destinations:
+        if city_code.lower() == destination["id"].lower():
+           return destination["cityName"]
+
+
+
+async def clean_json(responses):
+    offers_dict = {"offers": []}
+    
     for res in responses:
-        if "calendarOffers" in res and "0" in res["calendarOffers"]:
+        empty_results = False
+        messages = res["searchMetadata"]["infoMessages"]
+        
+        for msg in messages:
+            if "gds.flights.info.emptyResults" in msg:
+                empty_results = True
+
+        if not empty_results:
             offers = res["calendarOffers"]["0"]
+            
             for offer in offers:
-                if offer.get("offerDetails"):
-                    city_code = offer["leg"]["segments"][0]["destination"].lower()
-                    json_destinations = read_json("./scraping/destinations.json")[0]["destinos"]
-                    city_name = ""
-                    for destination in json_destinations:
-                        if city_code == destination["id"]:
-                            city_name = destination["cityName"]
+                offer_exists = offer["offerDetails"] != None
+                if offer_exists:
+                    flight_data = offer["leg"]["segments"][0]
+                    offer_data = offer["offerDetails"]
 
-                    price = offer["offerDetails"]["fare"]["total"]
-                    year, month, day = offer["departure"].split("-")
                     offer_dict = {
-                        "fecha": f"{day:02}/{month:02}/{year:04}",
-                        "destino": city_name,
-                        "precio": price
+                        "id": f"{uuid.uuid4()}",
+                        "flightNumber": f'{flight_data["flightNumber"]}',
+                        "origin": flight_data["origin"],
+                        "destination": flight_data["destination"],
+                        "departure": flight_data["departure"],
+                        "arrival": flight_data["arrival"],
+                        "duration": flight_data["duration"],
+                        "cabinClass": offer_data["cabinClass"],
+                        "availability": offer_data["seatAvailability"]["seats"],
+                        "price": offer_data["fare"]["total"],
+                        "originCity": get_city_name(flight_data["origin"]),
+                        "destinationCity": get_city_name(flight_data["destination"]),
                     }
-                    offers_list.append(offer_dict)
+                    offers_dict["offers"].append(offer_dict)
+                    
+    return offers_dict
 
-    return offers_list
+
 
 def sort_offers(offers):
     return sorted(offers, key=lambda d: d['precio'])
 
+
+
 def save_offers(sorted_offers):
-    offers = open("./scraping/offers.txt", 'w', encoding="utf-8")
+    offers = open("./scraping/offers2.txt", 'w', encoding="utf-8")
     offers.write(str(sorted_offers).replace("}, ", "}\n").replace("[", "").replace("]", "").replace("{", "").replace("}", "").replace("'", "").replace("precio: ", "precio: $"))
+
+
 
 async def main():
     origin = input_origin()
@@ -111,9 +160,8 @@ async def main():
         tasks = [fetch_url(session, url) for url in urls]
         responses = await asyncio.gather(*tasks)
 
-    ofertas = await clean_data(responses)
-    precios_ordenados = sort_offers(ofertas)
-    save_offers(precios_ordenados)
+    offers = await clean_json(responses)
+    save_json("./data/offers.json", offers)
 
 if __name__ == "__main__":
     asyncio.run(main())
