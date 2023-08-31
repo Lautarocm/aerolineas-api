@@ -12,7 +12,7 @@ def get_destinations(country):
         response.raise_for_status()
         data = response.json()
         df = pd.DataFrame(data)
-        df.to_json("destinations.json", force_ascii=False, orient='records')
+        df.to_json("./data/destinations.json", force_ascii=False, orient='records')
     except requests.RequestException as e:
         print(f"Error: {e}")
     
