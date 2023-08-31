@@ -100,7 +100,7 @@ def get_city_name(city_code):
 
 
 async def clean_json(responses):
-    offers_dict = {"offers": []}
+    offers_list = []
     
     for res in responses:
         empty_results = False
@@ -133,9 +133,9 @@ async def clean_json(responses):
                         "originCity": get_city_name(flight_data["origin"]),
                         "destinationCity": get_city_name(flight_data["destination"]),
                     }
-                    offers_dict["offers"].append(offer_dict)
+                    offers_list.append(offer_dict)
                     
-    return offers_dict
+    return offers_list
 
 
 
