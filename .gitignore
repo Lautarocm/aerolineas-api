@@ -1,6 +1,4 @@
 .env
 env/
 __pycache__/
-
-offers.txt
 proxies.py
