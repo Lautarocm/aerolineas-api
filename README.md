@@ -40,7 +40,7 @@ Ejecuta `request.py`:
 python request.py
 ```
 
-A continuación, introduce el código de ciudad de origen cuando se te solicite. El programa buscará ofertas de vuelos desde esa ciudad a los destinos elegidos para las próximas fechas y guardará los resultados en `/scraping/offers.json`.
+A continuación, introduce el código de ciudad de origen cuando se te solicite. El programa buscará ofertas de vuelos desde esa ciudad a los destinos elegidos para las próximas fechas y guardará los resultados en `/data/offers.json`.
 
 ## Resultados
 
