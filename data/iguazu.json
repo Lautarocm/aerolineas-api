@@ -1,0 +1,6660 @@
+[
+    {
+        "id": "a3e8e337-ed9f-499a-912d-a6e723274079",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-06T19:05:00"
+        ],
+        "arrivals": [
+            "2023-09-06T20:55:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a99ab2b9-78d7-4ed8-8117-7e916be5b663",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-07T07:40:00"
+        ],
+        "arrivals": [
+            "2023-09-07T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 68562,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d437f581-c6f6-42bb-9484-c05b4885588b",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-08T09:40:00"
+        ],
+        "arrivals": [
+            "2023-09-08T11:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 57939,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d844286f-97a4-4afe-a6fe-e303b4e1c1af",
+        "flightsNumbers": [
+            "1719",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-09T13:20:00",
+            "2023-09-09T17:50:00"
+        ],
+        "arrivals": [
+            "2023-09-09T14:20:00",
+            "2023-09-09T19:30:00"
+        ],
+        "duration": 370,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 41943,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "2088f608-c68e-44ea-b930-30e9dc7ef7e7",
+        "flightsNumbers": [
+            "1918"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-10T06:10:00"
+        ],
+        "arrivals": [
+            "2023-09-10T08:00:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 68562,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fe0f2a9b-cf61-473c-8579-6dc99bb439f3",
+        "flightsNumbers": [
+            "1718",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-11T13:20:00",
+            "2023-09-11T17:30:00"
+        ],
+        "arrivals": [
+            "2023-09-11T14:20:00",
+            "2023-09-11T19:10:00"
+        ],
+        "duration": 350,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 41943,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "d0a391d4-b55c-4ee4-b326-406d1c8aac6c",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-12T08:40:00"
+        ],
+        "arrivals": [
+            "2023-09-12T10:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 68562,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e79d989b-e6f8-4e87-bffe-54be89fc0dc3",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-13T05:20:00"
+        ],
+        "arrivals": [
+            "2023-09-13T07:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 68562,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d4d84129-d038-45c1-b3be-de66403b9ee1",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-14T18:45:00"
+        ],
+        "arrivals": [
+            "2023-09-14T20:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 68562,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "f6eca85f-eed3-471d-b741-4f51cf98f949",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-15T08:40:00"
+        ],
+        "arrivals": [
+            "2023-09-15T10:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 68562,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "038a4ad9-1fbd-4373-aa54-6108733e6f12",
+        "flightsNumbers": [
+            "1719",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-16T13:20:00",
+            "2023-09-16T17:50:00"
+        ],
+        "arrivals": [
+            "2023-09-16T14:20:00",
+            "2023-09-16T19:30:00"
+        ],
+        "duration": 370,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 41943,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "46499b9b-d01a-495c-b969-14d464b54e97",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-17T18:50:00"
+        ],
+        "arrivals": [
+            "2023-09-17T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 68562,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5946762f-d738-4431-af25-a9f5aee92679",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-18T18:50:00"
+        ],
+        "arrivals": [
+            "2023-09-18T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 68562,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "84579d9d-f316-43cd-b87d-2288b41455bc",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-19T05:25:00"
+        ],
+        "arrivals": [
+            "2023-09-19T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 57939,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e42746ed-324b-4eca-b3e0-fb42cf8ec820",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-20T19:00:00"
+        ],
+        "arrivals": [
+            "2023-09-20T20:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 34884,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "4a595a9c-b916-4715-8ab0-cedb5a0decf8",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-21T18:50:00"
+        ],
+        "arrivals": [
+            "2023-09-21T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 68562,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "edf4b221-565e-40b0-a9a8-a167908d9802",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-22T16:40:00"
+        ],
+        "arrivals": [
+            "2023-09-22T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 47194,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "38880b5f-8bbd-403f-a9e9-bc1349bf5060",
+        "flightsNumbers": [
+            "1746"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-23T09:55:00"
+        ],
+        "arrivals": [
+            "2023-09-23T11:45:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 68562,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fdb9e58d-b039-465d-ae34-ced38fc45d99",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-24T18:50:00"
+        ],
+        "arrivals": [
+            "2023-09-24T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 34884,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "065b577c-7282-4775-a52e-64c89b52d19d",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-25T18:50:00"
+        ],
+        "arrivals": [
+            "2023-09-25T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 41683,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "6630a2bf-2660-4501-8266-30c3204e02f0",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-26T06:35:00"
+        ],
+        "arrivals": [
+            "2023-09-26T08:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 34884,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "32f09ce9-387a-4c22-8641-64af4d64d41d",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-27T19:00:00"
+        ],
+        "arrivals": [
+            "2023-09-27T20:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fabaac89-03ad-48e8-b1d1-255e22b2c976",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-28T18:50:00"
+        ],
+        "arrivals": [
+            "2023-09-28T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 38350,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "18515445-32be-4282-9556-8d2e8863b000",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-29T18:50:00"
+        ],
+        "arrivals": [
+            "2023-09-29T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 63245,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "88ac5f01-eba5-44f9-8a01-f5a8e11c9409",
+        "flightsNumbers": [
+            "1746"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-09-30T09:55:00"
+        ],
+        "arrivals": [
+            "2023-09-30T11:45:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 68562,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "49498899-717b-4ec1-90d4-586f8073d0af",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-01T07:40:00"
+        ],
+        "arrivals": [
+            "2023-10-01T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 34884,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e3597ff5-1b94-4876-927e-97554c076750",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-02T09:00:00"
+        ],
+        "arrivals": [
+            "2023-10-02T10:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 68562,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "76729c84-3afd-4935-b6c8-1f9bc001a507",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-03T16:40:00"
+        ],
+        "arrivals": [
+            "2023-10-03T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 57939,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "c79f0dc2-cfe7-4668-8f62-4f5feea6aa17",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-04T06:40:00"
+        ],
+        "arrivals": [
+            "2023-10-04T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 57939,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "c18d97d4-b614-4bcb-9668-5f43948d329a",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-05T14:45:00"
+        ],
+        "arrivals": [
+            "2023-10-05T16:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 47194,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "72a934f6-8f8d-440c-af87-b8137d5dabbb",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-06T18:50:00"
+        ],
+        "arrivals": [
+            "2023-10-06T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 57939,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "6900fc6a-ff65-4b77-b531-491ab5a514d0",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-07T18:50:00"
+        ],
+        "arrivals": [
+            "2023-10-07T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 47194,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "51447e3e-ccc4-4229-affb-34d967f3f048",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-08T07:40:00"
+        ],
+        "arrivals": [
+            "2023-10-08T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 27903,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2064941c-e7e8-44d7-87d9-4454951bf193",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-09T06:40:00"
+        ],
+        "arrivals": [
+            "2023-10-09T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 68562,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a99a8e55-c25d-49ff-885a-3799e57a08e5",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-10T16:40:00"
+        ],
+        "arrivals": [
+            "2023-10-10T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 47194,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e5eaabbf-6fb5-489e-9ba6-d1f9d20ce0ba",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-11T06:40:00"
+        ],
+        "arrivals": [
+            "2023-10-11T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 68562,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "deede1b2-714c-4ac6-937f-cb4730768934",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-12T07:45:00"
+        ],
+        "arrivals": [
+            "2023-10-12T09:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 68562,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "33836e03-71cb-4b93-b009-321906312fbe",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-13T18:50:00"
+        ],
+        "arrivals": [
+            "2023-10-13T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 68562,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "6f609789-27ff-48ac-81f3-c5b4ccd295a8",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-14T18:50:00"
+        ],
+        "arrivals": [
+            "2023-10-14T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 7,
+        "price": 57939,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a6d9c804-46e4-40a2-b833-63fd7982650c",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-15T16:50:00"
+        ],
+        "arrivals": [
+            "2023-10-15T18:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 38350,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d6d850aa-93d4-434c-b144-59b52d2b3d5d",
+        "flightsNumbers": [
+            "1900"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-16T05:40:00"
+        ],
+        "arrivals": [
+            "2023-10-16T07:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 41683,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "4fc3823a-0b7f-4da9-85ba-d2456d2d4c9b",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-17T18:50:00"
+        ],
+        "arrivals": [
+            "2023-10-17T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 47194,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2cd8cca5-3af4-43c1-89cc-ce867de473d5",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-18T18:50:00"
+        ],
+        "arrivals": [
+            "2023-10-18T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 38350,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ed18caad-0447-4130-a268-4fae6bdad202",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-19T14:45:00"
+        ],
+        "arrivals": [
+            "2023-10-19T16:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 27903,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b02d06ea-ce52-4908-b829-c92ee3272e5f",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-20T18:50:00"
+        ],
+        "arrivals": [
+            "2023-10-20T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "81e5c1ba-8ca0-4df9-a5a9-287c25cff1f7",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-21T07:35:00"
+        ],
+        "arrivals": [
+            "2023-10-21T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fe3d5604-0a6d-44b5-b31d-514bbc337102",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-22T07:40:00"
+        ],
+        "arrivals": [
+            "2023-10-22T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ef13609a-8b3d-4748-80a7-9334651ac512",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-23T18:50:00"
+        ],
+        "arrivals": [
+            "2023-10-23T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 38350,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b40e8880-6d99-474a-aba6-6ec23a0f0d9b",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-24T07:40:00"
+        ],
+        "arrivals": [
+            "2023-10-24T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "bc002b37-01a4-4f81-b057-7e7827bf39c8",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-25T18:50:00"
+        ],
+        "arrivals": [
+            "2023-10-25T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "dfdd4757-4bdd-4eee-a29a-771f1f2fe522",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-26T14:45:00"
+        ],
+        "arrivals": [
+            "2023-10-26T16:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 38350,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "215548d6-e7cf-4b48-a649-b059dcb908ff",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-27T18:50:00"
+        ],
+        "arrivals": [
+            "2023-10-27T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fc597d92-fe70-4fb4-9cdb-2d4e905c1a9b",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-28T07:35:00"
+        ],
+        "arrivals": [
+            "2023-10-28T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 27903,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "1b434a3c-a17a-40b3-9ab7-2dcc8cf99bbb",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-29T06:20:00"
+        ],
+        "arrivals": [
+            "2023-10-29T08:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 25443,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "56b4058d-60ba-493f-8053-11949be450a3",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-30T06:40:00"
+        ],
+        "arrivals": [
+            "2023-10-30T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 27903,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "84671ac5-faea-469f-af8f-1ac3c3ecb889",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-10-31T06:40:00"
+        ],
+        "arrivals": [
+            "2023-10-31T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "0a6584a1-b32c-4774-96f0-53b82f6cde3b",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-01T06:40:00"
+        ],
+        "arrivals": [
+            "2023-11-01T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "9db2cd7a-9a10-4a51-86b6-fd0d3cfb02a0",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-02T14:35:00"
+        ],
+        "arrivals": [
+            "2023-11-02T16:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fb378293-8af9-4526-ba24-6503f31a9f69",
+        "flightsNumbers": [
+            "1706"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-03T14:40:00"
+        ],
+        "arrivals": [
+            "2023-11-03T16:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fbcc80b5-f9f7-4691-a2a6-4ecf4b21d20b",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-04T18:50:00"
+        ],
+        "arrivals": [
+            "2023-11-04T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 7,
+        "price": 21346,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "7a1448c0-5b78-409c-87aa-74238c5931fd",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-05T07:40:00"
+        ],
+        "arrivals": [
+            "2023-11-05T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e42ba84a-5006-4634-943f-51307d587695",
+        "flightsNumbers": [
+            "1724"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-06T07:40:00"
+        ],
+        "arrivals": [
+            "2023-11-06T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b42b3f68-1d5c-4f09-b87a-da69b640b665",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-07T18:50:00"
+        ],
+        "arrivals": [
+            "2023-11-07T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "8e9453e7-c977-4ef1-ad84-7d2bf6a4b0c6",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-08T08:00:00"
+        ],
+        "arrivals": [
+            "2023-11-08T09:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e3fe6bc1-2623-4efc-a392-abb1f509d508",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-09T07:45:00"
+        ],
+        "arrivals": [
+            "2023-11-09T09:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a5163e21-af49-4e8e-9e69-9bffc25f118d",
+        "flightsNumbers": [
+            "1706"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-10T14:40:00"
+        ],
+        "arrivals": [
+            "2023-11-10T16:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "519ba347-f969-49ea-a2dd-32e596d8ce78",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-11T18:50:00"
+        ],
+        "arrivals": [
+            "2023-11-11T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 21346,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "4adec5ac-0f6c-450c-aeb9-d851d8cb12ab",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-12T07:40:00"
+        ],
+        "arrivals": [
+            "2023-11-12T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2da361d8-6c33-48c6-973b-d89f593aea95",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-13T15:50:00"
+        ],
+        "arrivals": [
+            "2023-11-13T17:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 7,
+        "price": 57939,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a50a781d-d244-45dd-a10c-b7d80ca59e88",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-14T07:40:00"
+        ],
+        "arrivals": [
+            "2023-11-14T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "f3824165-7674-4bb6-b63b-8d01ff54bc33",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-15T08:00:00"
+        ],
+        "arrivals": [
+            "2023-11-15T09:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 27903,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "0e02de78-1c84-4c30-bead-2baa5ce9b01e",
+        "flightsNumbers": [
+            "1724"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-16T06:15:00"
+        ],
+        "arrivals": [
+            "2023-11-16T08:05:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 21346,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d9cfcab0-e96a-4997-b8f8-7cbc0a000d01",
+        "flightsNumbers": [
+            "1706"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-17T14:40:00"
+        ],
+        "arrivals": [
+            "2023-11-17T16:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 38350,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "eb9cf1f4-fa22-4940-a636-e31f700c5246",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-18T18:50:00"
+        ],
+        "arrivals": [
+            "2023-11-18T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "f33496bc-14ba-44f3-b4b2-09ee988c92ae",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-19T07:40:00"
+        ],
+        "arrivals": [
+            "2023-11-19T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 21346,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "598933d4-e93e-405a-9282-6aba28b0ffba",
+        "flightsNumbers": [
+            "1724"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-20T07:40:00"
+        ],
+        "arrivals": [
+            "2023-11-20T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "7676fd1d-e89c-466a-b5fe-e5ff9adc4a9a",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-21T07:40:00"
+        ],
+        "arrivals": [
+            "2023-11-21T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b5d62bba-81e5-473b-8978-a3044cae1d4c",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-22T08:00:00"
+        ],
+        "arrivals": [
+            "2023-11-22T09:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2476a612-f666-4421-b8ef-170c5552fc28",
+        "flightsNumbers": [
+            "1724"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-23T06:05:00"
+        ],
+        "arrivals": [
+            "2023-11-23T07:55:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "4c6b7f97-119d-4de1-879d-a9d8866ca2ed",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-24T08:20:00"
+        ],
+        "arrivals": [
+            "2023-11-24T10:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 38350,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "c08efd16-0916-4d63-ba2a-5f09cf12ba6f",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-25T18:50:00"
+        ],
+        "arrivals": [
+            "2023-11-25T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 21346,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5897c50b-f9ad-42dd-90df-712ee424b81c",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-26T07:40:00"
+        ],
+        "arrivals": [
+            "2023-11-26T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "62674b65-a053-479d-863a-66ed7f717273",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-27T13:00:00",
+            "2023-11-27T17:00:00"
+        ],
+        "arrivals": [
+            "2023-11-27T14:00:00",
+            "2023-11-27T18:40:00"
+        ],
+        "duration": 340,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23521,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "2451e0f6-1562-42cd-91c0-46920bb2e79c",
+        "flightsNumbers": [
+            "1758"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-28T12:00:00"
+        ],
+        "arrivals": [
+            "2023-11-28T13:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 7,
+        "price": 47194,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "c5795941-5c88-4dd0-a001-b2997424026b",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-29T08:00:00"
+        ],
+        "arrivals": [
+            "2023-11-29T09:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b7d66290-6164-4993-9cd5-472afb4eeca8",
+        "flightsNumbers": [
+            "1724"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-11-30T05:55:00"
+        ],
+        "arrivals": [
+            "2023-11-30T07:45:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 21346,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "c4ed666b-ae71-4a46-b89c-0d8187015f2b",
+        "flightsNumbers": [
+            "1750"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-01T21:30:00"
+        ],
+        "arrivals": [
+            "2023-12-01T23:20:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 7,
+        "price": 21346,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ec102aa2-791b-4206-a341-072401149a12",
+        "flightsNumbers": [
+            "1724"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-02T05:35:00"
+        ],
+        "arrivals": [
+            "2023-12-02T07:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 21346,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "77d47047-4724-4190-8869-2ca0b11f6dca",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-03T07:40:00"
+        ],
+        "arrivals": [
+            "2023-12-03T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "8c4f81ae-b849-445c-b3b0-36c6bdaa8f6b",
+        "flightsNumbers": [
+            "1724"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-04T08:00:00"
+        ],
+        "arrivals": [
+            "2023-12-04T09:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 21346,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2ec50432-0acf-4e89-ab76-2e755f2c7141",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-05T18:50:00"
+        ],
+        "arrivals": [
+            "2023-12-05T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "79b2fda1-07cc-4e94-9d35-f2e1c8ae5d2b",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-06T06:40:00"
+        ],
+        "arrivals": [
+            "2023-12-06T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e74e7970-ab97-4118-8496-66f3554b4196",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-07T14:35:00"
+        ],
+        "arrivals": [
+            "2023-12-07T16:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 38350,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ebc6d737-ff00-46a7-b9c8-76b9e0efbf93",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-08T16:40:00"
+        ],
+        "arrivals": [
+            "2023-12-08T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 47194,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "65c8066c-c4ab-4cc4-993d-2fb9c6226fad",
+        "flightsNumbers": [
+            "1724"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-09T05:35:00"
+        ],
+        "arrivals": [
+            "2023-12-09T07:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d1c2a0c4-e294-44bf-9bdd-05efbbee8a04",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-10T07:40:00"
+        ],
+        "arrivals": [
+            "2023-12-10T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "85335e91-6e91-4b79-b4fc-5e7ca5e48803",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-11T13:00:00",
+            "2023-12-11T17:00:00"
+        ],
+        "arrivals": [
+            "2023-12-11T14:00:00",
+            "2023-12-11T18:40:00"
+        ],
+        "duration": 340,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 18684,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "3a6def01-a8f5-4476-95cc-ce0969e975e5",
+        "flightsNumbers": [
+            "1758"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-12T12:00:00"
+        ],
+        "arrivals": [
+            "2023-12-12T13:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "4c7133ad-8a5f-43e4-a501-da06d59fd92d",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-13T18:50:00"
+        ],
+        "arrivals": [
+            "2023-12-13T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "9ec7cc68-1e7d-4306-9ec1-dbf40c302d27",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-14T14:35:00"
+        ],
+        "arrivals": [
+            "2023-12-14T16:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "7c2f9751-60bc-4ad8-8b12-3d025f6273b9",
+        "flightsNumbers": [
+            "1706"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-15T12:40:00"
+        ],
+        "arrivals": [
+            "2023-12-15T14:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 21346,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "29c8a8a5-34ba-459c-9e82-04569deec74c",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-16T07:35:00"
+        ],
+        "arrivals": [
+            "2023-12-16T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "02d8165c-0408-432f-9cf1-0e1972c738c9",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-17T07:40:00"
+        ],
+        "arrivals": [
+            "2023-12-17T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "76823efb-10e2-4bd7-87b0-82c8d50704d7",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-18T13:55:00",
+            "2023-12-18T17:55:00"
+        ],
+        "arrivals": [
+            "2023-12-18T14:55:00",
+            "2023-12-18T19:35:00"
+        ],
+        "duration": 340,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 18684,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "ce6750cc-3703-4a31-99dc-7f3344df0c97",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-19T06:40:00"
+        ],
+        "arrivals": [
+            "2023-12-19T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b7e2f709-90ef-442c-ae37-b71cd7874c38",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-20T07:40:00"
+        ],
+        "arrivals": [
+            "2023-12-20T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a687f942-93ab-4e39-9436-0419c3ba543a",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-21T13:25:00",
+            "2023-12-21T16:55:00"
+        ],
+        "arrivals": [
+            "2023-12-21T14:25:00",
+            "2023-12-21T18:35:00"
+        ],
+        "duration": 310,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 28163,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "c376d0c0-4261-4161-88b6-585ca0c454ee",
+        "flightsNumbers": [
+            "1750"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-22T21:30:00"
+        ],
+        "arrivals": [
+            "2023-12-22T23:20:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 38350,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "04c3b196-2aea-4e8e-a3b5-23c40ee9f34a",
+        "flightsNumbers": [
+            "1920"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-23T19:50:00"
+        ],
+        "arrivals": [
+            "2023-12-23T21:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 38350,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ba037179-18b2-4fe5-adc8-4c5891f79ede",
+        "flightsNumbers": [
+            "1504",
+            "1518"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-24T14:05:00",
+            "2023-12-24T17:45:00"
+        ],
+        "arrivals": [
+            "2023-12-24T15:35:00",
+            "2023-12-24T19:35:00"
+        ],
+        "duration": 330,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 36873,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "COR"
+        ]
+    },
+    {
+        "id": "16b6f680-3f48-4eeb-b4fa-25d09159e3e5",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-25T13:00:00",
+            "2023-12-25T17:55:00"
+        ],
+        "arrivals": [
+            "2023-12-25T14:00:00",
+            "2023-12-25T19:35:00"
+        ],
+        "duration": 395,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 21606,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "17cac0a0-3a30-4588-a3ed-b1a9773fc016",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-26T06:40:00"
+        ],
+        "arrivals": [
+            "2023-12-26T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 63245,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "bcaf0a00-ad0a-47ad-b96c-d8c480a79c52",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-27T07:40:00"
+        ],
+        "arrivals": [
+            "2023-12-27T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 38350,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e09bbda4-ff74-4b10-8080-6b67582cc34b",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-28T14:35:00"
+        ],
+        "arrivals": [
+            "2023-12-28T16:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 63245,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "1d93db76-625b-42ea-af1f-6d09f10a7f3c",
+        "flightsNumbers": [
+            "1750"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-29T21:30:00"
+        ],
+        "arrivals": [
+            "2023-12-29T23:20:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "aca2eef6-e8d6-4e1c-a948-3f2561156e8f",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-30T07:40:00"
+        ],
+        "arrivals": [
+            "2023-12-30T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 7,
+        "price": 41683,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "6508d930-1436-4f04-b550-2d4b6de29212",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2023-12-31T07:35:00"
+        ],
+        "arrivals": [
+            "2023-12-31T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "bbef7ecf-3e46-4874-a3f9-6a01eec47f17",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-01T06:40:00"
+        ],
+        "arrivals": [
+            "2024-01-01T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 34884,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2764ee0b-ffa4-44b8-8c9f-f72d07395ca9",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-02T05:30:00"
+        ],
+        "arrivals": [
+            "2024-01-02T07:20:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 57939,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d762fcb1-dea4-449d-af99-cc3862e63caf",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-03T16:45:00"
+        ],
+        "arrivals": [
+            "2024-01-03T18:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 38350,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "f2ad0522-9d68-4284-ab6c-2432b5d1eb4b",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-04T13:35:00",
+            "2024-01-04T16:55:00"
+        ],
+        "arrivals": [
+            "2024-01-04T14:35:00",
+            "2024-01-04T18:35:00"
+        ],
+        "duration": 300,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 28163,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "ad9b4aa7-e811-41d7-a574-ea9f13809774",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-05T18:40:00"
+        ],
+        "arrivals": [
+            "2024-01-05T20:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 34884,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a096a963-d610-43eb-8f06-58fbfc7d8f57",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-06T07:40:00"
+        ],
+        "arrivals": [
+            "2024-01-06T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e4261ac9-b456-4253-a0fc-639aaf2f6ba4",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-07T18:50:00"
+        ],
+        "arrivals": [
+            "2024-01-07T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "3971b6c9-7506-4a15-85a2-6d7af6a99ea5",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-08T06:40:00"
+        ],
+        "arrivals": [
+            "2024-01-08T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 38350,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "9bb6361a-1446-44c3-8d3b-225da6b098a9",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-09T06:40:00"
+        ],
+        "arrivals": [
+            "2024-01-09T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "7d1a2fa9-fd75-4d42-9419-7a5ab4e74643",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-10T07:40:00"
+        ],
+        "arrivals": [
+            "2024-01-10T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fd665fb9-1585-4403-bd17-de0b4537eab4",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-11T13:35:00",
+            "2024-01-11T16:55:00"
+        ],
+        "arrivals": [
+            "2024-01-11T14:35:00",
+            "2024-01-11T18:35:00"
+        ],
+        "duration": 300,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 25703,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "a4489a0d-9fcc-4081-9f74-da9c868485b4",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-12T07:55:00"
+        ],
+        "arrivals": [
+            "2024-01-12T09:45:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "871b6cfa-f090-42b8-b21b-52c0dc1ac849",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-13T07:40:00"
+        ],
+        "arrivals": [
+            "2024-01-13T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a9075c2c-1f69-45d6-b3b0-f8455ea55c39",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-14T16:50:00"
+        ],
+        "arrivals": [
+            "2024-01-14T18:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2e2948de-1008-4416-8757-e8e6c7d04628",
+        "flightsNumbers": [
+            "1744"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-15T19:50:00"
+        ],
+        "arrivals": [
+            "2024-01-15T21:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "61d11c97-32b2-4168-bca3-9ed10894c60b",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-16T06:40:00"
+        ],
+        "arrivals": [
+            "2024-01-16T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "1a5ef8c1-d254-4bf1-a2a4-5951a7736e5b",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-17T18:50:00"
+        ],
+        "arrivals": [
+            "2024-01-17T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "6edf53fb-d35d-4d80-953b-c3c9708fcea1",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-18T13:35:00",
+            "2024-01-18T16:55:00"
+        ],
+        "arrivals": [
+            "2024-01-18T14:35:00",
+            "2024-01-18T18:35:00"
+        ],
+        "duration": 300,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 25703,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "7a5df20d-7aa1-41a3-942c-e523df4e561e",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-19T07:55:00"
+        ],
+        "arrivals": [
+            "2024-01-19T09:45:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 27903,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "6fbaa1fa-b827-4612-8500-e0b4ded1d01f",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-20T05:20:00"
+        ],
+        "arrivals": [
+            "2024-01-20T07:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "1aee4837-1668-42c5-9122-0e04ee5f726c",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-21T05:10:00"
+        ],
+        "arrivals": [
+            "2024-01-21T07:00:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "63ae72a8-686f-4bc9-94fc-d9c379473600",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-22T06:40:00"
+        ],
+        "arrivals": [
+            "2024-01-22T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 7,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "234fd4f9-9921-4b41-ba4f-02da3c59c23a",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-23T06:40:00"
+        ],
+        "arrivals": [
+            "2024-01-23T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "404d746f-66ab-4789-add9-3b9966be26db",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-24T10:40:00"
+        ],
+        "arrivals": [
+            "2024-01-24T12:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 25443,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2b893218-a34e-4a94-ab2a-8d5b925e0c45",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-25T13:35:00",
+            "2024-01-25T16:55:00"
+        ],
+        "arrivals": [
+            "2024-01-25T14:35:00",
+            "2024-01-25T18:35:00"
+        ],
+        "duration": 300,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25703,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "088c02d0-27fd-422d-ad23-797f3ac9ac3e",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-26T18:40:00"
+        ],
+        "arrivals": [
+            "2024-01-26T20:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5f03fc86-44a0-4d47-a8de-5dd9f2412f79",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-27T05:20:00"
+        ],
+        "arrivals": [
+            "2024-01-27T07:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "811f2f0f-fc61-432b-87f4-8b2ae00dab04",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-28T07:35:00"
+        ],
+        "arrivals": [
+            "2024-01-28T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a8d931cb-2573-4e64-82b3-913503587646",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-29T06:40:00"
+        ],
+        "arrivals": [
+            "2024-01-29T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "474a58be-c368-40b1-8e30-973f602786e7",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-30T06:40:00"
+        ],
+        "arrivals": [
+            "2024-01-30T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "94b472c8-43dc-46c0-845d-41dfa88638d9",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-01-31T07:40:00"
+        ],
+        "arrivals": [
+            "2024-01-31T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "45ced11f-be31-4bf7-81b6-4c37b48d4e7e",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-01T13:35:00",
+            "2024-02-01T16:55:00"
+        ],
+        "arrivals": [
+            "2024-02-01T14:35:00",
+            "2024-02-01T18:35:00"
+        ],
+        "duration": 300,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25703,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "5d73e289-8edc-4656-81ae-7d318fc309b6",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-02T06:40:00"
+        ],
+        "arrivals": [
+            "2024-02-02T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5510b8e7-a322-4f16-9cad-995ed72559c5",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-03T05:20:00"
+        ],
+        "arrivals": [
+            "2024-02-03T07:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2547004f-a4f0-4027-9103-7786eba0c013",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-04T07:35:00"
+        ],
+        "arrivals": [
+            "2024-02-04T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b1dc5ad9-0d15-4b55-93e5-f7a498aff88d",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-05T06:40:00"
+        ],
+        "arrivals": [
+            "2024-02-05T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 7,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "3213e25a-73de-4bed-817f-48929c7cf504",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-06T16:25:00"
+        ],
+        "arrivals": [
+            "2024-02-06T18:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 38350,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ffe194ac-7003-4cb8-82ed-4b3b8ed6483f",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-07T07:40:00"
+        ],
+        "arrivals": [
+            "2024-02-07T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ad6d21b2-0966-4a93-a8ce-85388f2009fa",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-08T13:35:00",
+            "2024-02-08T16:55:00"
+        ],
+        "arrivals": [
+            "2024-02-08T14:35:00",
+            "2024-02-08T18:35:00"
+        ],
+        "duration": 300,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 28163,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "9ae296d3-5906-49de-a3b8-b408b17c5565",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-09T06:40:00"
+        ],
+        "arrivals": [
+            "2024-02-09T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 38350,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "afb507e1-1ea4-4b03-bc2f-45059728af69",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-10T05:20:00"
+        ],
+        "arrivals": [
+            "2024-02-10T07:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d076a893-e069-42cb-917f-0f2a56e11a92",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-11T07:35:00"
+        ],
+        "arrivals": [
+            "2024-02-11T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "31f74a5e-2916-4c85-8dec-d9f76fa267f8",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-12T06:40:00"
+        ],
+        "arrivals": [
+            "2024-02-12T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "9dff5008-99f6-4b26-9059-8c0161200537",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-13T06:40:00"
+        ],
+        "arrivals": [
+            "2024-02-13T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 68562,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "48ab2dfd-7cff-422b-ae10-28eed7149ab5",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-14T05:25:00"
+        ],
+        "arrivals": [
+            "2024-02-14T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 63245,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "9f09ea78-51d3-4a9e-b420-6a0ae5e5db67",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-15T15:05:00"
+        ],
+        "arrivals": [
+            "2024-02-15T16:55:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "99de521f-5e14-4141-a43f-425fc62da050",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-16T07:55:00"
+        ],
+        "arrivals": [
+            "2024-02-16T09:45:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 38350,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d7e885d7-42e1-4f89-8c65-ec139224e514",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-17T05:20:00"
+        ],
+        "arrivals": [
+            "2024-02-17T07:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 38350,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b2bba568-ee5f-4fb3-9ca4-744ae7640c1f",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-18T05:10:00"
+        ],
+        "arrivals": [
+            "2024-02-18T07:00:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "436ee05d-ec50-4d9d-89d4-98358d658065",
+        "flightsNumbers": [
+            "1744"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-19T19:50:00"
+        ],
+        "arrivals": [
+            "2024-02-19T21:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "09183341-04a0-4654-a841-54444493e1ae",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-20T06:40:00"
+        ],
+        "arrivals": [
+            "2024-02-20T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 27903,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5962ca5d-1f84-441d-9654-608766cf56e7",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-21T16:45:00"
+        ],
+        "arrivals": [
+            "2024-02-21T18:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 25443,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "8adce361-8960-4e30-b623-66f82893f395",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-22T07:35:00"
+        ],
+        "arrivals": [
+            "2024-02-22T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "109521f8-bdd2-4a86-b5e6-7276e0657fb6",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-23T07:55:00"
+        ],
+        "arrivals": [
+            "2024-02-23T09:45:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b4379097-ab7a-4d49-8ef6-a9e7f6ee7dcd",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-24T07:40:00"
+        ],
+        "arrivals": [
+            "2024-02-24T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "f2e54a1e-59fd-408a-8195-b616832c99f8",
+        "flightsNumbers": [
+            "1744"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-25T14:35:00"
+        ],
+        "arrivals": [
+            "2024-02-25T16:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "1043a5c6-195f-4f9d-bb77-22462d402f1c",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-26T06:40:00"
+        ],
+        "arrivals": [
+            "2024-02-26T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "31295d0a-0a25-49cd-ae17-7337175018c0",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-27T06:40:00"
+        ],
+        "arrivals": [
+            "2024-02-27T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b7e40098-7b98-45f0-bc3d-620337971de5",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-28T05:25:00"
+        ],
+        "arrivals": [
+            "2024-02-28T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "9bb01f32-3a54-4a53-ac00-727a98d1aca3",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-02-29T15:05:00"
+        ],
+        "arrivals": [
+            "2024-02-29T16:55:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "67d54b90-a91c-4a13-9e38-0ccc0f7e618e",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-01T18:40:00"
+        ],
+        "arrivals": [
+            "2024-03-01T20:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ecbe90b0-098e-4ccf-9c90-78bc02d9760d",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-02T06:20:00"
+        ],
+        "arrivals": [
+            "2024-03-02T08:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5a5699c8-017a-4117-bcec-2feff622f399",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-03T07:35:00"
+        ],
+        "arrivals": [
+            "2024-03-03T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "3cf34b7c-3ec4-452d-8654-2e9cd0a86fb6",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-04T15:05:00"
+        ],
+        "arrivals": [
+            "2024-03-04T16:55:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 41683,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b8d487fc-beaf-4b32-8008-fea576551f74",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-05T18:50:00"
+        ],
+        "arrivals": [
+            "2024-03-05T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 57939,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "391cfa3e-febd-498b-8f7a-0f7a6c56c4c9",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-06T10:40:00"
+        ],
+        "arrivals": [
+            "2024-03-06T12:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2af744f9-84d1-41cc-b2c1-14d1b212bbc5",
+        "flightsNumbers": [
+            "1716",
+            "1705"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-07T13:35:00",
+            "2024-03-07T16:55:00"
+        ],
+        "arrivals": [
+            "2024-03-07T14:35:00",
+            "2024-03-07T18:35:00"
+        ],
+        "duration": 300,
+        "cabinClass": "Economy",
+        "availability": 7,
+        "price": 25703,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 1,
+        "connectionsAirports": [
+            "ROS"
+        ]
+    },
+    {
+        "id": "4fa6c7fa-e118-4455-b69a-52955349a9f5",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-08T06:40:00"
+        ],
+        "arrivals": [
+            "2024-03-08T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "034898cc-3c91-43f3-b645-c2f1a0caf706",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-09T07:40:00"
+        ],
+        "arrivals": [
+            "2024-03-09T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "0374f353-4045-48ca-9f68-cd10b0122be5",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-10T07:35:00"
+        ],
+        "arrivals": [
+            "2024-03-10T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "43998a91-39f0-41b7-ac8f-42c52afa5296",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-11T06:40:00"
+        ],
+        "arrivals": [
+            "2024-03-11T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d801ae40-dea1-4fc9-943d-26c8c72e61c3",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-12T06:40:00"
+        ],
+        "arrivals": [
+            "2024-03-12T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "63d3cf63-aa53-46a8-938c-e5c669b12075",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-13T05:25:00"
+        ],
+        "arrivals": [
+            "2024-03-13T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fb574655-7ef0-483e-9d52-b2cd5aa869f9",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-14T15:05:00"
+        ],
+        "arrivals": [
+            "2024-03-14T16:55:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "cfebbc38-4996-4a55-8f7f-a68848acfb9b",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-15T07:55:00"
+        ],
+        "arrivals": [
+            "2024-03-15T09:45:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e06ff49f-3154-40ed-84d6-aa0a246dde0f",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-16T06:20:00"
+        ],
+        "arrivals": [
+            "2024-03-16T08:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "74b3db9e-e227-4d12-8fc3-b10df3e47e64",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-17T07:35:00"
+        ],
+        "arrivals": [
+            "2024-03-17T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "f3cd444e-44ae-4020-8d2b-e8e95125ae38",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-18T06:40:00"
+        ],
+        "arrivals": [
+            "2024-03-18T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "9d74f45e-38a7-4732-b1b3-8f902a9f5b6f",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-19T06:40:00"
+        ],
+        "arrivals": [
+            "2024-03-19T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "91ae2b4e-f92e-4946-96b0-0e8077abae1c",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-20T10:40:00"
+        ],
+        "arrivals": [
+            "2024-03-20T12:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "0084e4d7-3463-481a-9a1d-f238ba19e6da",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-21T15:05:00"
+        ],
+        "arrivals": [
+            "2024-03-21T16:55:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d977ee4f-cf26-46d4-bfe5-a2218a7fb2a0",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-22T18:40:00"
+        ],
+        "arrivals": [
+            "2024-03-22T20:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "45658ef6-5c5a-49a0-8719-d77cfa7ae480",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-23T05:20:00"
+        ],
+        "arrivals": [
+            "2024-03-23T07:10:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "09bf3fce-eab5-4027-bee5-128aa449a168",
+        "flightsNumbers": [
+            "1756"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-24T12:50:00"
+        ],
+        "arrivals": [
+            "2024-03-24T14:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "4d3e5c1b-277b-4953-a6c0-570cb581f106",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-25T06:40:00"
+        ],
+        "arrivals": [
+            "2024-03-25T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d2676cd2-ded6-4258-823c-e83e36d0df9b",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-26T06:40:00"
+        ],
+        "arrivals": [
+            "2024-03-26T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5bc4a870-96c3-4eec-b97e-bd71f7838cd7",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-27T16:45:00"
+        ],
+        "arrivals": [
+            "2024-03-27T18:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 34884,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5133acaa-68d0-4a16-a7a9-269779afb788",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-28T18:50:00"
+        ],
+        "arrivals": [
+            "2024-03-28T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 57939,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "88ceec0e-3685-42b1-9733-f6d06a7fe19e",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-29T06:40:00"
+        ],
+        "arrivals": [
+            "2024-03-29T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 41683,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "8891177f-ee74-4486-bb43-956a1ea65e7a",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-30T07:40:00"
+        ],
+        "arrivals": [
+            "2024-03-30T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 38350,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2cb79e0d-1aab-4dfa-9e6b-18997c1bca88",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-03-31T07:35:00"
+        ],
+        "arrivals": [
+            "2024-03-31T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5ae5c540-b717-42a8-8ccc-c9ebff3300c5",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-01T06:40:00"
+        ],
+        "arrivals": [
+            "2024-04-01T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "adcbce9a-5592-4d05-b5a7-1b2757b31b40",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-02T05:30:00"
+        ],
+        "arrivals": [
+            "2024-04-02T07:20:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "92734547-f843-4d86-9de0-b4fdafd1f920",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-03T07:40:00"
+        ],
+        "arrivals": [
+            "2024-04-03T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 3,
+        "price": 25443,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "14292abc-0b75-4bcc-897d-9f2d1d99aa78",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-04T15:05:00"
+        ],
+        "arrivals": [
+            "2024-04-04T16:55:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e27ecd84-9da7-415b-9a63-f7c22ca6dcbd",
+        "flightsNumbers": [
+            "1758"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-05T12:00:00"
+        ],
+        "arrivals": [
+            "2024-04-05T13:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a5103365-b72e-48ae-bb41-f6279e9ab96a",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-06T07:40:00"
+        ],
+        "arrivals": [
+            "2024-04-06T09:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5ba45f2d-b413-4da5-b5f0-866676a13a4a",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-07T07:35:00"
+        ],
+        "arrivals": [
+            "2024-04-07T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "4497e62a-81b7-4161-a093-dec4364b4faf",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-08T06:40:00"
+        ],
+        "arrivals": [
+            "2024-04-08T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "925c61a2-8bcf-4332-b665-76158c2bd994",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-09T06:40:00"
+        ],
+        "arrivals": [
+            "2024-04-09T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b38fb5ee-126a-4312-a06c-ea1a9e784546",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-10T06:40:00"
+        ],
+        "arrivals": [
+            "2024-04-10T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "deb92c5a-bd8f-487b-93c5-20a3a9256f39",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-11T18:50:00"
+        ],
+        "arrivals": [
+            "2024-04-11T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b92b4c44-ce7c-4211-a087-5cd678417453",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-12T16:40:00"
+        ],
+        "arrivals": [
+            "2024-04-12T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 8,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5f5e8e90-5830-4a17-ade0-84751f550b73",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-13T06:35:00"
+        ],
+        "arrivals": [
+            "2024-04-13T08:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "113ce461-a2b6-46e2-ad48-6eae6e0d5873",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-14T05:25:00"
+        ],
+        "arrivals": [
+            "2024-04-14T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "15d543c9-00db-4d7b-96b1-ecfe4cc386d3",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-15T18:50:00"
+        ],
+        "arrivals": [
+            "2024-04-15T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "90f28c43-5fee-47ec-8a12-fcad366539fa",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-16T16:40:00"
+        ],
+        "arrivals": [
+            "2024-04-16T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "350fb53b-6f67-4dda-9ca6-37d661fbe28e",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-17T18:50:00"
+        ],
+        "arrivals": [
+            "2024-04-17T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "4d86ce3c-3bdc-4d32-bc60-7477c491cc02",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-18T18:50:00"
+        ],
+        "arrivals": [
+            "2024-04-18T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e8f79e17-f9f9-4710-a8e4-fd5d3fbf0e43",
+        "flightsNumbers": [
+            "1758"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-19T12:00:00"
+        ],
+        "arrivals": [
+            "2024-04-19T13:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ffef14c3-08b3-4bc5-881e-bf71b7ebae9c",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-20T06:35:00"
+        ],
+        "arrivals": [
+            "2024-04-20T08:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "89f25325-19b8-4b4f-9498-0be0b7fc648c",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-21T07:35:00"
+        ],
+        "arrivals": [
+            "2024-04-21T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "61abe36c-06de-4d80-b805-8d84f606b91b",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-22T18:50:00"
+        ],
+        "arrivals": [
+            "2024-04-22T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "289cab01-f16f-4170-8eee-0f9b8409a4d0",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-23T06:40:00"
+        ],
+        "arrivals": [
+            "2024-04-23T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "1add5e3c-7faa-492f-b05b-45475df6540e",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-24T05:25:00"
+        ],
+        "arrivals": [
+            "2024-04-24T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "bcd468b5-ef48-40bb-a153-f653cb0088c3",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-25T16:50:00"
+        ],
+        "arrivals": [
+            "2024-04-25T18:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d1d8f172-cafe-4caa-bd80-0567e1edd492",
+        "flightsNumbers": [
+            "1756"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-26T13:40:00"
+        ],
+        "arrivals": [
+            "2024-04-26T15:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fc155d06-81ce-4384-865e-e95a0fb64f48",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-27T08:35:00"
+        ],
+        "arrivals": [
+            "2024-04-27T10:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e1ff1417-1920-44fc-9fb5-fa3a8c53dd75",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-28T06:35:00"
+        ],
+        "arrivals": [
+            "2024-04-28T08:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "0eed8eba-f4e1-48bb-ab2f-4ac0fda084ea",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-29T18:50:00"
+        ],
+        "arrivals": [
+            "2024-04-29T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "34a92bcb-05da-45ca-bdb4-d70fdd9d5075",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-04-30T05:25:00"
+        ],
+        "arrivals": [
+            "2024-04-30T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5e55da39-6697-49ca-87ee-a436891c469e",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-01T16:40:00"
+        ],
+        "arrivals": [
+            "2024-05-01T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 38350,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "1d75b2ab-53aa-40a4-b503-43227fc9ae5e",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-02T07:35:00"
+        ],
+        "arrivals": [
+            "2024-05-02T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "370dad69-c476-4636-80c8-18dce48c4462",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-03T15:40:00"
+        ],
+        "arrivals": [
+            "2024-05-03T17:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "104e2bad-fd35-4e0a-9f09-d24f64b37e16",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-04T07:35:00"
+        ],
+        "arrivals": [
+            "2024-05-04T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "8132e98d-5451-4ebd-b6bc-0e0be740d99e",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-05T06:35:00"
+        ],
+        "arrivals": [
+            "2024-05-05T08:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 2,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "424571bb-73d3-4080-a16e-3a816c1a2cbe",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-06T11:00:00"
+        ],
+        "arrivals": [
+            "2024-05-06T12:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d754a670-88c5-4289-a9e9-f0caadcd32d1",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-07T09:25:00"
+        ],
+        "arrivals": [
+            "2024-05-07T11:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "99021df6-b072-4e3f-b95a-5714f7184039",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-08T06:40:00"
+        ],
+        "arrivals": [
+            "2024-05-08T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "cbff7b39-0d32-4627-b460-3e8d4b6b46f7",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-09T05:25:00"
+        ],
+        "arrivals": [
+            "2024-05-09T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ef452f68-900d-4215-b329-e62be3292cc0",
+        "flightsNumbers": [
+            "1756"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-10T13:40:00"
+        ],
+        "arrivals": [
+            "2024-05-10T15:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a96dcc00-4931-4659-8971-43a0cc618157",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-11T07:35:00"
+        ],
+        "arrivals": [
+            "2024-05-11T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "7c77b3b6-62b7-48f6-9181-f3937d6921bd",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-12T06:35:00"
+        ],
+        "arrivals": [
+            "2024-05-12T08:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "1ca56ad7-ea09-4378-a176-92e30835acd0",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-13T11:00:00"
+        ],
+        "arrivals": [
+            "2024-05-13T12:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "c6f25a3d-64c4-416c-b13f-3bc106fdcb6a",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-14T16:40:00"
+        ],
+        "arrivals": [
+            "2024-05-14T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "477e2e09-e14e-458a-9264-e42115217eb0",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-15T07:35:00"
+        ],
+        "arrivals": [
+            "2024-05-15T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "64cc0a4f-1ebf-43c7-9302-7fe8d7b840d8",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-16T09:25:00"
+        ],
+        "arrivals": [
+            "2024-05-16T11:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "c8446412-79c5-4395-bf89-5ea41e1d2ba7",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-17T15:40:00"
+        ],
+        "arrivals": [
+            "2024-05-17T17:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "d76b1273-5f24-42b9-938c-d4172cd00cf9",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-18T16:40:00"
+        ],
+        "arrivals": [
+            "2024-05-18T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "140c8c3b-53f4-4d88-989a-a87341af3fa8",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-19T06:35:00"
+        ],
+        "arrivals": [
+            "2024-05-19T08:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "b0d828bc-66ff-4d84-acf9-a795ec73cdab",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-20T16:50:00"
+        ],
+        "arrivals": [
+            "2024-05-20T18:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "074a44ba-74e1-4156-865b-0d3a5e48cf7a",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-21T18:50:00"
+        ],
+        "arrivals": [
+            "2024-05-21T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "cc17d425-5ec3-44c9-8117-24db92b7f4dc",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-22T05:25:00"
+        ],
+        "arrivals": [
+            "2024-05-22T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a5e4db23-703a-4b11-934e-8520e78ccca8",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-23T07:35:00"
+        ],
+        "arrivals": [
+            "2024-05-23T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "2b4f7ee9-9a02-42f2-80c4-0e834bee1be8",
+        "flightsNumbers": [
+            "1756"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-24T13:40:00"
+        ],
+        "arrivals": [
+            "2024-05-24T15:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5dd4e196-82f3-4be0-bdce-3048dfae3793",
+        "flightsNumbers": [
+            "1746"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-25T09:35:00"
+        ],
+        "arrivals": [
+            "2024-05-25T11:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "950f6ecd-e223-4437-965b-6722abed73c8",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-26T05:25:00"
+        ],
+        "arrivals": [
+            "2024-05-26T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "861c6d97-73a1-43c2-96dd-6af3a98b424a",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-27T11:00:00"
+        ],
+        "arrivals": [
+            "2024-05-27T12:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "1cd3bc48-1aeb-488c-ab15-4d52e17a5307",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-28T06:40:00"
+        ],
+        "arrivals": [
+            "2024-05-28T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5310e041-79a6-455a-8c4e-26b5695ccdc1",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-29T05:25:00"
+        ],
+        "arrivals": [
+            "2024-05-29T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "811884ce-9f1d-4887-998e-364726b81d96",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-30T11:00:00"
+        ],
+        "arrivals": [
+            "2024-05-30T12:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "ca1e257f-8a8e-4ea0-a8fd-1a7f4febd578",
+        "flightsNumbers": [
+            "1758"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-05-31T12:00:00"
+        ],
+        "arrivals": [
+            "2024-05-31T13:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a1910689-e78a-4a1d-ba6a-33cc2acd1add",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-01T16:40:00"
+        ],
+        "arrivals": [
+            "2024-06-01T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "5ffd9ae2-a2f3-4388-a437-5339f8912d6c",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-02T08:35:00"
+        ],
+        "arrivals": [
+            "2024-06-02T10:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "507b333f-1ada-46c4-94a4-f0dbefe7f924",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-03T11:00:00"
+        ],
+        "arrivals": [
+            "2024-06-03T12:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "46c1e525-0c91-4361-881c-2ea06f2aa83f",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-04T05:25:00"
+        ],
+        "arrivals": [
+            "2024-06-04T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "8647fdb7-5d12-49c2-b29c-016cd59fd2a5",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-05T05:25:00"
+        ],
+        "arrivals": [
+            "2024-06-05T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "99101b86-d2c0-40dd-a64c-c7645dc82bac",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-06T18:50:00"
+        ],
+        "arrivals": [
+            "2024-06-06T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "00a1720a-5cbd-48c6-b677-20626e28685e",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-07T16:40:00"
+        ],
+        "arrivals": [
+            "2024-06-07T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "eb7bc108-89a0-4e62-be30-687cdcbc9ac2",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-08T08:35:00"
+        ],
+        "arrivals": [
+            "2024-06-08T10:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "e5008120-878a-4dc5-aa87-1934eef5373b",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-09T05:25:00"
+        ],
+        "arrivals": [
+            "2024-06-09T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "9f55b24d-dcdb-41e4-bf3a-5a274818d703",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-10T06:40:00"
+        ],
+        "arrivals": [
+            "2024-06-10T08:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "18051b94-1ead-4dc0-a90e-b94cf49f0d4a",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-11T18:50:00"
+        ],
+        "arrivals": [
+            "2024-06-11T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "3256a4db-bb2c-45a1-bec2-0c629cdf88aa",
+        "flightsNumbers": [
+            "1746"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-12T09:45:00"
+        ],
+        "arrivals": [
+            "2024-06-12T11:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "c6b17a3d-a459-4a6d-bb76-dac09e397be3",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-13T11:00:00"
+        ],
+        "arrivals": [
+            "2024-06-13T12:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "1d51ced2-e788-48b0-adb2-3c25d543bf77",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-14T15:40:00"
+        ],
+        "arrivals": [
+            "2024-06-14T17:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "302ced40-5f40-412e-b847-bb68051bbf98",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "EZE",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-15T07:35:00"
+        ],
+        "arrivals": [
+            "2024-06-15T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires ezeiza",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "036dc18d-8d40-4c8d-9702-64ee3fc2029c",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-16T11:00:00"
+        ],
+        "arrivals": [
+            "2024-06-16T12:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "16f461e9-3d82-460a-8b37-490a361032ec",
+        "flightsNumbers": [
+            "1732"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-17T07:35:00"
+        ],
+        "arrivals": [
+            "2024-06-17T09:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "8a86df13-f088-4453-938b-9b4ed5a7b75e",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-18T05:25:00"
+        ],
+        "arrivals": [
+            "2024-06-18T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "93c1aa56-6bbd-4159-8f1a-f6845efe6778",
+        "flightsNumbers": [
+            "1746"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-19T09:45:00"
+        ],
+        "arrivals": [
+            "2024-06-19T11:35:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 4,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "33fcf66d-ba9f-4bd1-95e5-c5759453da43",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-20T11:00:00"
+        ],
+        "arrivals": [
+            "2024-06-20T12:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 5,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "a1531b1d-db49-42f6-b1d7-535a48199be5",
+        "flightsNumbers": [
+            "1742"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-21T09:25:00"
+        ],
+        "arrivals": [
+            "2024-06-21T11:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 6,
+        "price": 27903,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "9483983e-ee75-4216-bc89-7e7c317dc732",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-22T06:35:00"
+        ],
+        "arrivals": [
+            "2024-06-22T08:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "3e39b7f2-eb6d-48df-884b-960887b3b830",
+        "flightsNumbers": [
+            "1730"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-23T05:25:00"
+        ],
+        "arrivals": [
+            "2024-06-23T07:15:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "9c363cc9-6321-4ede-905b-43cdc9eaa17d",
+        "flightsNumbers": [
+            "1736"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-24T11:00:00"
+        ],
+        "arrivals": [
+            "2024-06-24T12:50:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 1,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "fdbbb5ca-84b2-42b3-99bf-882a2f82ef52",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-25T16:40:00"
+        ],
+        "arrivals": [
+            "2024-06-25T18:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "70509077-3f68-41e4-a298-b1178bf25224",
+        "flightsNumbers": [
+            "1740"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-26T18:50:00"
+        ],
+        "arrivals": [
+            "2024-06-26T20:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "42747c86-ad98-4d91-8813-babff0e7bbba",
+        "flightsNumbers": [
+            "1738"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-27T16:50:00"
+        ],
+        "arrivals": [
+            "2024-06-27T18:40:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "3697893c-7299-4141-87e7-f0d21e02958c",
+        "flightsNumbers": [
+            "1756"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-28T13:40:00"
+        ],
+        "arrivals": [
+            "2024-06-28T15:30:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "cb745f36-b27a-4837-849b-12aba726423c",
+        "flightsNumbers": [
+            "1746"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-29T09:35:00"
+        ],
+        "arrivals": [
+            "2024-06-29T11:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    },
+    {
+        "id": "7119e3a3-5543-4124-8c4c-cc8ca8aacc98",
+        "flightsNumbers": [
+            "1734"
+        ],
+        "origin": "AEP",
+        "destination": "IGR",
+        "departures": [
+            "2024-06-30T06:35:00"
+        ],
+        "arrivals": [
+            "2024-06-30T08:25:00"
+        ],
+        "duration": 110,
+        "cabinClass": "Economy",
+        "availability": 9,
+        "price": 23261,
+        "originCity": "buenos aires aeroparque ",
+        "destinationCity": "iguazu",
+        "connections": 0,
+        "connectionsAirports": []
+    }
+]
