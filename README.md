@@ -5,11 +5,10 @@ Este proyecto permite al usuario ingresar un origen y destino y buscar ofertas d
 ## Contenido
 
 - [Requisitos](#requisitos)
-- [Instalación](#instalación)
+- [Configuración](#configuración)
 - [Uso](#uso)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Nota](#nota)
 
 ## Requisitos
 
@@ -47,6 +46,20 @@ cd scraping
 python get_token.py
 ```
 
+5. Instala las dependencias del frontend (Next.JS):
+
+```sh
+cd ../client
+npm install
+```
+
+6. Instala las dependencias del backend (Express.JS):
+
+```sh
+cd ../server
+npm install
+```
+
 ## Uso
 
 1. Abre una terminal para el backend.
@@ -74,6 +87,28 @@ A continuación, navega a la sección `Vuelos` y realiza una búsqueda. El progr
 ## Resultados
 
 Los resultados incluyen toda la información de los vuelos como fechas, precio, aeropuertos, disponibilidad, entre otros.
+
+## Estructura del proyecto
+
+aerolineas-api/
+|-- client/
+|   |-- archivos de la aplicación Next.JS
+|
+|-- data/
+|   |-- archivos JSON
+|
+|-- env/
+|   |-- archivos del entorno virtual
+|
+|-- scraping/
+|   |-- archivos de scraping
+|
+|-- server/
+|   |-- archivos del servidor Express
+|
+|-- .gitignore
+|-- README.md
+
 
 ## Nota
 
