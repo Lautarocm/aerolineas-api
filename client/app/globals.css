@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --dark: #051923;
+  --dark-transparent: #0519236a;
+  --navheight: 4rem;
+  --bg-gradient-dark: linear-gradient(60deg, var(--dark), #082939)
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+ul{
+  list-style: none;
+}
