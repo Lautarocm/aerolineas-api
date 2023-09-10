@@ -3,7 +3,7 @@ import pandas as pd
 from headers import headers
 
 
-    #Se puede obtener la lista de destinos de cualquier país pasando el nombre como argumento a la función get_destination
+    #Se puede obtener la lista de destinos de cualquier país pasando el nombre como argumento a la función get_destinations
 
 def get_destinations(country):
     try:
