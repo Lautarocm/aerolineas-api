@@ -7,7 +7,7 @@ Este proyecto permite al usuario ingresar un origen y destino y buscar ofertas d
 - [Requisitos](#requisitos)
 - [Configuración](#configuración)
 - [Uso](#uso)
-- [Estructura del proyecto](#estructura-del-proyecto)
+- [Estructura](#estructura)
 - [Nota](#nota)
 
 ## Requisitos
@@ -88,7 +88,7 @@ A continuación, navega a la sección `Vuelos` y realiza una búsqueda. El progr
 
 Los resultados incluyen toda la información de los vuelos como fechas, precio, aeropuertos, disponibilidad, entre otros.
 
-## Estructura del proyecto
+## Estructura
 
 - `aerolineas-api/`
   - `client/`
