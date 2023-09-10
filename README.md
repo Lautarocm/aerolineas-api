@@ -90,25 +90,19 @@ Los resultados incluyen toda la información de los vuelos como fechas, precio, 
 
 ## Estructura del proyecto
 
-aerolineas-api/
-|-- client/
-|   |-- archivos de la aplicación Next.JS
-|
-|-- data/
-|   |-- archivos JSON
-|
-|-- env/
-|   |-- archivos del entorno virtual
-|
-|-- scraping/
-|   |-- archivos de scraping
-|
-|-- server/
-|   |-- archivos del servidor Express
-|
-|-- .gitignore
-|-- README.md
-
+- `aerolineas-api/`
+  - `client/`
+    - Archivos de la aplicación Next.js
+  - `data/`
+    - Archivos JSON
+  - `env/`
+    - Archivos del entorno virtual
+  - `scraping/`
+    - Archivos de scraping
+  - `server/`
+    - Archivos del servidor Express
+  - `.gitignore`
+  - `README.md`
 
 ## Nota
 
