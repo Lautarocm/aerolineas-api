@@ -1,46 +1,75 @@
 # Aerolineas Argentinas - Buscador de Ofertas
 
-Este proyecto permite al usuario ingresar un origen y buscar ofertas de vuelos a distintos destinos, utilizando la API oficial de Aerolineas Argentinas.
+Este proyecto permite al usuario ingresar un origen y destino y buscar ofertas de vuelos de todo el año, utilizando la API oficial de Aerolineas Argentinas.
 
 ## Contenido
 
-- `destinations.json`: Contiene destinos de vuelo en Argentina.
-- `get_destinations.py`: Contiene las funciones para obtener el archivo JSON con los posibles destinos.
-- `headers.py`: Define los headers para hacer las solicitudes a la API, incluida la autenticación.
-- `request.py`: Contiene las funciones necesarias para interactuar con el usuario, definir los parámetros de búsqueda, consumir la API, procesar y almacenar los datos en un JSON.
-- `requiriments.txt`: Contiene las librerias necesarias para correr el proyecto.
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
 
-## Pre-requisitos
+## Requisitos
 
-- Python 3.x
-- Bibliotecas `requests`, `asyncio`, `aiohttp`, `json`,  `dotenv` y `uuid`, `datetime`, `json` de Python.
+- Python 3.x y pip
+- Node.JS y npm
+- Librerias de Python: `selenium`, `selenium-wire`, `webdriver-manager`, `requests`, `aiohttp`.
+- Paquetes de Node: `express`, `cors`, kit de `fortawesome`, `nextui`, `autoprefixer`, `eslint`, `eslint-config-next`, `framer-motion`, `next`, `postcss`, `react`, `react-dom`, `tailwindcss`.
 
 ## Configuración
 
-1. Clona este repositorio.
-2. Crea un entorno virtual en la raíz del proyecto.
-3. Crea un archivo `.env` en la raíz del proyecto.
-4. En el archivo `.env`, establece tu clave de API:
+1. Clona este repositorio:
 
 ```sh
-API_KEY=tu_clave_de_api_aqui
+git clone https://github.com/Lautarocm/aerolineas-api.git
+cd aerolineas-api
 ```
 
-5. Instala las librerias necesarias:
+2. Crea y activa un entorno virtual en la raíz del proyecto:
+
+```sh
+virtualenv env
+env\Scripts\activate
+```
+
+3. Instala las librerias necesarias:
 
 ```sh
 pip install -r scraping/requirements.txt
 ```
 
-## Uso
-
-Ejecuta `request.py`:
+4. Ejecuta `get_token.py`:
 
 ```sh
-python request.py
+cd scraping
+python get_token.py
 ```
 
-A continuación, introduce el código de ciudad de origen cuando se te solicite. El programa buscará ofertas de vuelos desde esa ciudad a los destinos elegidos para las próximas fechas y guardará los resultados en `/data/offers.json`.
+## Uso
+
+1. Abre una terminal para el backend.
+2. Corre el servidor en modo dev:
+
+```sh
+cd server
+npm run dev
+```
+
+3. Abre una terminal para el frontend.
+4. Corre el cliente en modo dev:
+
+```sh
+cd client
+npm run dev
+```
+
+5. Abre un navegador y navega a `localhos:3000`:
+
+[http://localhost:3000](http://localhost:3000)
+
+A continuación, navega a la sección `Vuelos` y realiza una búsqueda. El programa buscará ofertas de vuelos y las mostrará en formato de tarjetas, puedes filtrar por meses y ordenar los precios en orden ascendente.
 
 ## Resultados
 
