@@ -1,8 +1,7 @@
-from dotenv import load_dotenv
-import os
+token = ""
 
-load_dotenv()
-api_key = os.getenv("API_KEY")
+with open("C:/Users/Usuario/Documents/proyectos/aerolineas-api/scraping/token.txt") as file:
+    token = file.read()
 
 headers = {
     ':authority': 'api.aerolineas.com.ar',
@@ -11,7 +10,7 @@ headers = {
     'Accept': 'application/json, text/plain, */*',
     'Accept-Encoding': 'gzip, deflate, br',
     'Accept-Language': 'es-AR',
-    'Authorization': api_key,
+    'Authorization': token,
     'Cache-Control': 'no-cache',
     'Origin': 'https://www.aerolineas.com.ar',
     'Pragma': 'no-cache',
