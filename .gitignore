@@ -3,3 +3,4 @@ env/
 __pycache__/
 proxies.py
 scraping/token.txt
+/server/node_modules/
