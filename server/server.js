@@ -22,7 +22,7 @@ app.get("/scrape", (req, res)=>{
     const origin = req.query["origin"]
     const destination = req.query["destination"]
     
-    const scriptDir = path.join(__dirname, "..", "scraping/request.py")
+    const scriptDir = path.join(__dirname, "..", "scraping/scraper.py")
     const envDir = path.join(__dirname, "..", "env/Scripts/activate")
     const command = `${envDir} && python ${scriptDir}`
 
