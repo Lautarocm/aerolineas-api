@@ -1,6 +1,7 @@
 .env
-env/
-__pycache__/
+/env/
+/__pycache__/
 proxies.py
-scraping/token.txt
+/scraping/token.txt
 /server/node_modules/
+/scraping/logs.txt
