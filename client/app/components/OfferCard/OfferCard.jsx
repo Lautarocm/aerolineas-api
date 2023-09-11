@@ -15,7 +15,7 @@ export default function OfferCard({offer}){
     const month = months[dateTime.getUTCMonth()]
     const year = dateTime.getUTCFullYear()
 
-    const destination = offer["destinationCity"]
+    const destination = offer["destination_city"]
     const originAirport = offer["origin"]
     const destinationAirport = offer["destination"]
     const departure = `${day} ${month} ${year}`
@@ -24,7 +24,7 @@ export default function OfferCard({offer}){
     const seatAvailability = offer["availability"]
     const connections = offer["connections"]
     const duration = offer["duration"]
-    const cabinClass = offer["cabinClass"]
+    const cabinClass = offer["cabin_class"]
     const url = `https://www.aerolineas.com.ar/flights-offers?adt=1&inf=0&chd=0&flexDates=false&cabinClass=Economy&flightType=ONE_WAY&leg=${originAirport}-${destinationAirport}-${dateString.split("-").join("")}`
 
     return(
