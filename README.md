@@ -26,40 +26,46 @@ git clone https://github.com/Lautarocm/aerolineas-api.git
 cd aerolineas-api
 ```
 
-2. Crea y activa un entorno virtual en la raíz del proyecto:
+2. Instala la herramienta virtualenv:
+
+```sh
+pip install virtualenv
+```
+
+3. Crea y activa un entorno virtual en la raíz del proyecto:
 
 ```sh
 virtualenv env
 env\Scripts\activate
 ```
 
-3. Instala las librerias necesarias de Python:
+4. Instala las librerias necesarias de Python:
 
 ```sh
 pip install -r scraping/requirements.txt
 ```
 
-4. Ejecuta `get_token.py`: [Importante! ver notas](#notas)
+5. Ejecuta `get_token.py`: [Importante! ver notas](#notas)
 
 ```sh
 cd scraping
 python get_token.py
 ```
 
-5. Ejecuta `get_airports.py`:
+6. Ejecuta `get_airports.py`:
 
 ```sh
 python get_airports.py
 ```
 
-6. Instala las dependencias del frontend (Next.JS):
+7. Instala las dependencias del frontend (Next.JS):
 
 ```sh
 cd ../client
 npm install
 ```
 
-7. Instala las dependencias del backend (Express.JS):
+8. Instala las dependencias del backend (Express.JS):
 
 ```sh
 cd ../server
