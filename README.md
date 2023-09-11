@@ -8,7 +8,7 @@ Este proyecto permite al usuario ingresar un origen y destino y buscar ofertas d
 - [Configuración](#configuración)
 - [Uso](#uso)
 - [Estructura](#estructura)
-- [Nota](#nota)
+- [Notas](#notas)
 
 ## Requisitos
 
@@ -33,27 +33,33 @@ virtualenv env
 env\Scripts\activate
 ```
 
-3. Instala las librerias necesarias:
+3. Instala las librerias necesarias de Python:
 
 ```sh
 pip install -r scraping/requirements.txt
 ```
 
-4. Ejecuta `get_token.py`:
+4. Ejecuta `get_token.py`: [Importante! ver notas](#notas)
 
 ```sh
 cd scraping
 python get_token.py
 ```
 
-5. Instala las dependencias del frontend (Next.JS):
+5. Ejecuta `get_airports.py`:
+
+```sh
+python get_token.py
+```
+
+6. Instala las dependencias del frontend (Next.JS):
 
 ```sh
 cd ../client
 npm install
 ```
 
-6. Instala las dependencias del backend (Express.JS):
+7. Instala las dependencias del backend (Express.JS):
 
 ```sh
 cd ../server
@@ -87,6 +93,7 @@ A continuación, navega a la sección `Vuelos` y realiza una búsqueda. El progr
 ## Resultados
 
 Los resultados incluyen toda la información de los vuelos como fechas, precio, aeropuertos, disponibilidad, entre otros.
+Además se generará un log con información por cada request realizada. Incluye información de errores
 
 ## Estructura
 
@@ -104,6 +111,8 @@ Los resultados incluyen toda la información de los vuelos como fechas, precio, 
   - `.gitignore`
   - `README.md`
 
-## Nota
+## Notas
+
+Al ejecutar `get_token.py` posiblemente aparezcan en la temrinal errores de certificados SSL. Cuando termine la ejecución el token estará en la carpeta `/scraping`
 
 Este proyecto está diseñado para uso educativo y no comercial.
