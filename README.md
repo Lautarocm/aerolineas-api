@@ -113,6 +113,6 @@ Además se generará un log con información por cada request realizada. Incluye
 
 ## Notas
 
-Al ejecutar `get_token.py` posiblemente aparezcan en la terminal errores de certificados SSL. Esto no interrumple la ejecución, al terminar, el token estará en la carpeta `/scraping`
+Al ejecutar `get_token.py` posiblemente aparezcan en la terminal errores de certificados SSL. Esto no interrumpe la ejecución, al terminar, el token estará en la carpeta `/scraping`
 
 Este proyecto está diseñado para uso educativo y no comercial.
