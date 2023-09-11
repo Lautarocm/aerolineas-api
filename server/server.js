@@ -22,14 +22,14 @@ app.get("/scrape", (req, res)=>{
     const origin = req.query["origin"]
     const destination = req.query["destination"]
     
-    const scriptDir = path.join(__dirname, "..", "scraping/scraper.py")
-    const envDir = path.join(__dirname, "..", "env/Scripts/activate")
+    const scriptDir = path.join(__dirname, "..", "scraping", "main.py")
+    const envDir = path.join(__dirname, "..", "env", "Scripts", "activate")
     const command = `${envDir} && python ${scriptDir}`
 
 
     exec(`${command} ${origin} ${destination}`, (error, stdout, stderr) => {
       if (error) {
-        console.error(`Error al ejecutar el script: ${error.message}`)
+        console.error(`Error al ejecutar el script: ${error.message}\nMAS DETALLES EN "/scraping/log.txt"\n`)
         return res.status(500).json({ error: 'Error en el scraping' })
       }
       if(stderr){
