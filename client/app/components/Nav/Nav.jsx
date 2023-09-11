@@ -49,8 +49,8 @@ export default function Nav(){
                 </NavbarItem>
             </NavbarContent>
             <NavbarMenu>
-                {menuItems.map((item, index) => (
-                    <NavbarMenuItem key={`${item}-${index}`}>
+                {menuItems.map(item => (
+                    <NavbarMenuItem key={item.text}>
                         <Link
                         color="foreground"
                         className="w-full text-3xl mt-4"
