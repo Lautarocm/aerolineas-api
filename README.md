@@ -12,7 +12,7 @@ Este proyecto permite al usuario ingresar un origen y destino y buscar ofertas d
 
 ## Requisitos
 
-- Python 3.x y pip
+- Python 3.x, pip y virtualenv
 - Node.JS y npm
 - Librerias de Python: `selenium`, `selenium-wire`, `webdriver-manager`, `requests`, `aiohttp`.
 - Paquetes de Node: `express`, `cors`, kit de `fortawesome`, `nextui`, `autoprefixer`, `eslint`, `eslint-config-next`, `framer-motion`, `next`, `postcss`, `react`, `react-dom`, `tailwindcss`.
