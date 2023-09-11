@@ -1,10 +1,14 @@
 import requests
 import json
+import os
+from utilities import get_script_directory as dir
 
 token = ""
 url = "https://api.aerolineas.com.ar/v1/catalog/airports"
+current_dir = dir(__file__)
+token_dir = os.path.join(current_dir, "token.txt")
 
-with open("C:/Users/Usuario/Documents/proyectos/aerolineas-api/scraping/token.txt") as file:
+with open(token_dir) as file:
     token = file.read()
 
 headers = {
