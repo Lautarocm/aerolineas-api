@@ -49,7 +49,7 @@ python get_token.py
 5. Ejecuta `get_airports.py`:
 
 ```sh
-python get_token.py
+python get_airports.py
 ```
 
 6. Instala las dependencias del frontend (Next.JS):
@@ -113,6 +113,6 @@ Además se generará un log con información por cada request realizada. Incluye
 
 ## Notas
 
-Al ejecutar `get_token.py` posiblemente aparezcan en la temrinal errores de certificados SSL. Cuando termine la ejecución el token estará en la carpeta `/scraping`
+Al ejecutar `get_token.py` posiblemente aparezcan en la terminal errores de certificados SSL. Esto no interrumple la ejecución, al terminar, el token estará en la carpeta `/scraping`
 
 Este proyecto está diseñado para uso educativo y no comercial.
