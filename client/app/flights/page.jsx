@@ -145,8 +145,7 @@ export default function Flights(){
                     color="primary"
                     items={airports}>
                         {countries.map(country => 
-                            <SelectSection showDivider title={country}>
-                                {console.log(airports)}
+                            <SelectSection key={country} showDivider title={country}>
                                 {airports.map(airport => 
                                     airport.city.country.name == country &&
                                     <SelectItem
@@ -170,8 +169,7 @@ export default function Flights(){
                     color="primary"
                     items={airports}>
                     {countries.map(country => 
-                        <SelectSection showDivider title={country}>
-                            {console.log(airports)}
+                        <SelectSection key={country} showDivider title={country}>
                             {airports.map(airport => 
                                 airport.city.country.name == country &&
                                 <SelectItem
@@ -202,21 +200,17 @@ export default function Flights(){
                 </div>
                 <div className={styles.offersContainer}>
                     {
-                    loading ? <Spinner />: (
-                        offersExist ? (
+                    loading ? 
+                    <Spinner /> :
+                        offersExist ? 
                             <ul className={styles.offers}>
-                                    {offersToShow.map(offer => {
-                                        return (
-                                            <li key={`${offer["id"]}`}><OfferCard offer={offer}></OfferCard></li>
-                                        )
-                                    })}
-                                </ul>
-                        ) : (
+                                    {offersToShow.map(offer => 
+                                        <li key={offer.id}><OfferCard offer={offer}></OfferCard></li> 
+                                    )}
+                            </ul> : 
                             offers ?
-                            <span className={styles.defaultText}>Elegí a donde volar</span> :
-                            <span className={styles.defaultText}>No hay vuelos</span>
-                        )
-                    )
+                                <span className={styles.defaultText}>Elegí a donde volar</span> :
+                                <span className={styles.defaultText}>No hay vuelos</span>
                     }
                 </div>
             </div>
