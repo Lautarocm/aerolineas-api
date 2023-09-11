@@ -45,7 +45,7 @@ env\Scripts\activate
 pip install -r scraping/requirements.txt
 ```
 
-5. Ejecuta `get_token.py`: [Importante! ver notas](#notas)
+5. Ejecuta `get_token.py`:
 
 ```sh
 cd scraping
@@ -118,7 +118,5 @@ Además se generará un log con información por cada request realizada. Incluye
   - `README.md`
 
 ## Notas
-
-Al ejecutar `get_token.py` posiblemente aparezcan en la terminal errores de certificados SSL. Esto no interrumpe la ejecución, al terminar, el token estará en la carpeta `/scraping`
 
 Este proyecto está diseñado para uso educativo y no comercial.
