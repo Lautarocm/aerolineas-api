@@ -1,31 +1,18 @@
-import { useEffect, useState } from "react";
-import styles from "../../flights/flights.module.css"
+"use client"
+
 import { Button } from "@nextui-org/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDownShortWide } from "@fortawesome/free-solid-svg-icons"; 
+import { useSort } from "@/app/hooks/useSort";
 
-export default function Checkbox({handleSort, sortDisabled, resetState, onResetComplete}){
+export function SortCheckbox({sortDisabled}){
 
-	const [sortOn, setSortOn] = useState(false)
-
-	const handleClick = () => {
-		setSortOn((state) => {
-			handleSort(!state)
-			return !state
-		})
-	}
-
-    useEffect(() => {
-        if(resetState){
-            setSortOn(false)
-            onResetComplete()
-        }
-    }, [resetState])
+	const {sorted, handleSort} = useSort()
 
 	return(
-		<Button isDisabled={sortDisabled} className={styles.sort} onPress={() => handleClick()} size="xs" radius="full" color={sortOn ? "primary" : "default"}>
+		<Button isDisabled={sortDisabled} onPress={() => handleSort()} size="xs" radius="full" color={sorted ? "primary" : "default"}>
 			{<FontAwesomeIcon icon={faArrowDownShortWide} />}
-			{sortOn ? "On" : "Off"}
+			{sorted ? "On" : "Off"}
 		</Button>
 	)
 }

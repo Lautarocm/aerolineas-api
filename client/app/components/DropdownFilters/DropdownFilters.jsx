@@ -1,11 +1,13 @@
-import { useEffect, useState } from "react";
+"use client"
+
 import { Button, Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from "@nextui-org/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFilter, faArrowUpWideShort, faArrowDownWideShort } from "@fortawesome/free-solid-svg-icons";
+import { faFilter } from "@fortawesome/free-solid-svg-icons";
 import styles from "./DropdownFilters.module.css"
 import flightsStyles from "../../flights/flights.module.css"
+import { useFilter } from "@/app/hooks/useFilter";
 
-const months = [
+const monthsArray = [
     {
         key: "01",
         month: "Ene"
@@ -56,20 +58,12 @@ const months = [
     }
 ]
 
-export default function DropdownFilters({handleFilter, filterDisabled, resetState, onResetComplete}){
+export function DropdownFilters({filterDisabled}){
 
-    const [selectedMonths, setSelectedMonths] = useState(new Set());
-
-    useEffect(() => {
-        if(resetState){
-            setSelectedMonths(new Set())
-            onResetComplete()
-        }
-    }, [resetState])
+    const {handleFilter, months, handleChange} = useFilter()
 
     return(
         <Dropdown
-        className={styles.dropdown}
         onClose={() => {handleFilter(selectedMonths)}}>
             <DropdownTrigger>
                 <Button isDisabled={filterDisabled} className={flightsStyles.filter} size="xs" radius="full"><FontAwesomeIcon className="text-stone-400" icon={faFilter} /></Button>
@@ -80,9 +74,9 @@ export default function DropdownFilters({handleFilter, filterDisabled, resetStat
             closeOnSelect={false}
             selectionMode="multiple"
             variant="faded"
-            selectedKeys={selectedMonths}
-            onSelectionChange={setSelectedMonths}>
-                {months.map((month) => (
+            selectedKeys={months}
+            onSelectionChange={handleChange}>
+                {monthsArray.map((month) => (
                     <DropdownItem color="primary"
                     key={month.key}
                     className={styles.ddItem}>

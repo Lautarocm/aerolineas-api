@@ -1,0 +1,24 @@
+.searchButtons{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto auto;
+    gap: 15px;
+    height: 100%;
+    align-items: center;
+}
+
+.button{
+    height: 100%;
+    grid-column: 1;
+}
+
+.sort{
+    grid-column: 3 ;
+    min-width: initial;
+    width: fit-content;
+}
+
+.filter{
+    grid-column: 4;
+    justify-self: flex-end;
+    min-width: initial;
+}

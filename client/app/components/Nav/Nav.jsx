@@ -4,7 +4,7 @@ import styles from "./Nav.module.css"
 import { useState } from "react"
 import { Navbar, NavbarMenu, NavbarMenuItem, NavbarContent, NavbarItem, NavbarMenuToggle, Link } from "@nextui-org/react"
 
-export default function Nav(){
+export function Nav(){
 
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
