@@ -1,0 +1,13 @@
+.offersContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    text-align: center;
+    position: relative;
+}
+
+.offersContainer::-webkit-scrollbar{
+    display: none;
+}

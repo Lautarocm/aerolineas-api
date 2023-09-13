@@ -3,11 +3,11 @@ import { Card, CardHeader, CardBody, CardFooter, Divider, Button, Link } from "@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faClock, faPlaneDeparture } from "@fortawesome/free-solid-svg-icons"
 
-export default function OfferCard({offer}){
+export function OfferCard({offer}){
     
     const months = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
 
-    if (offer["conections"] > 0){console.log("")}
+    // if (offer["conections"] > 0){console.log("")}
 
     const dateString = offer["departures"][0].split("T")[0]
     const dateTime = new Date(dateString)
