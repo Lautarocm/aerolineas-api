@@ -1,13 +1,14 @@
 "use client"
 
-import { useSearch } from "@/app/hooks/useSearch"
 import { Spinner } from "@nextui-org/react"
 import { Offers } from "../Offers/Offers"
 import styles from "./OffersContainer.module.css"
+import { useContext } from "react"
+import { FlightsContext } from "@/app/context/FlightsContext"
 
 export function OffersContainer(){
 
-    const {loading} = useSearch()
+    const {loading} = useContext(FlightsContext)
 
 
     return(

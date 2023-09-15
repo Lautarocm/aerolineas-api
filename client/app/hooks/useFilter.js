@@ -1,15 +1,14 @@
-import { useState } from "react"
+import { useContext, useState } from "react"
+import { FlightsContext } from "../context/FlightsContext"
 
 export function useFilter() {
 
-    const [filtered, setFiltered] = useState(false)
-    const [months, setMonths] = useState(new Set())
+    const {setFiltered, setMonths, months} = useContext(FlightsContext)
 
     const handleFilter = (months) => {
+        setMonths(months)
         if(months.size > 0){
             setFiltered(true)
-            setMonths(months)
-            
         }
         else{setFiltered(false)}
     }
@@ -19,9 +18,12 @@ export function useFilter() {
         setFiltered(false)
     }
 
-    const handleChange = (months) => {
-        setMonths(months)
+    const filterOffers = (offers) => {
+        const filteredOffers = offers.filter(offer => {
+            return months.has(offer.departures[0].split("-")[1])
+        })
+        return filteredOffers
     }
 
-  return {filtered, handleFilter, months, resetFilter, handleChange}
+  return {handleFilter, months, resetFilter, filterOffers}
 }

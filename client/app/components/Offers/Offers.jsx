@@ -2,16 +2,16 @@
 
 import { DefaultMessage } from "../DefaultMessage/DefaultMessage"
 import styles from "./Offers.module.css"
-import { useSearch } from "@/app/hooks/useSearch"
+import { OfferCard } from "../OfferCard/OfferCard"
+import { useContext } from "react"
+import { FlightsContext } from "@/app/context/FlightsContext"
 import { useSortFilter } from "@/app/hooks/useSortFilter"
-import { useSelect } from "@/app/hooks/useSelect"
 
 export function Offers(){
-
-    const {origin, destination} = useSelect()
-    const {offersExist, offers, isSorted, isFiltered, months} = useSearch(origin, destination)
-    const {offersToShow} = useSortFilter(offers, offersExist, isSorted, isFiltered, months)
-
+    
+    const {offersExist} = useContext(FlightsContext)
+    const {offersToShow} = useSortFilter()
+    
     return(
         offersExist ?
         <ul className={styles.offers}>

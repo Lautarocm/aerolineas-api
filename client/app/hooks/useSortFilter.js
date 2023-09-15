@@ -1,53 +1,41 @@
-import { useState, useEffect, useContext } from "react"
-import { FlightsContext } from "../context/FlightsContext"
+import { useContext, useEffect, useState } from "react"
 import { useFilter } from "./useFilter"
 import { useSort } from "./useSort"
+import { FlightsContext } from "../context/FlightsContext"
 
 export function useSortFilter(){
 
     const [offersToShow, setOffersToShow] = useState([])
-    const {offers, offersExist} = useContext(FlightsContext)
-    const {sorted} = useSort()
-    const {filtered, months} = useFilter()
+    const {sorted, filtered, months, offers} = useContext(FlightsContext)
+    const {sortOffers} = useSort()
+    const {filterOffers} = useFilter()
+    const {offersExist} = useContext(FlightsContext)
 
-    const sortOffers = (offers) => {
-        const sortedOffers = offers.slice().sort((a, b)=>a["price"]-b["price"])
-        return sortedOffers
-    }
-
-    const filterOffers = (offers) => {
-        const filteredOffers = offers.filter(offer => {
-            return months.has(offer.departures[0].split("-")[1])
-        })
-        return filteredOffers
-    }
-
-    const sortAndFilter = (offers) => {
+    const  sortAndFilter = () => {
         if(sorted && filtered){
             const filteredOffers = filterOffers(offers)
             const sortedOffers = sortOffers(filteredOffers)
-            setOffersToShow(sortedOffers)
             console.log("1")
+            setOffersToShow(sortedOffers)
         }
         else if(filtered && !sorted){
             const filteredOffers = filterOffers(offers)
-            setOffersToShow(filteredOffers)
             console.log("2")
+            setOffersToShow(filteredOffers)
         }
         else if(sorted && !filtered){
             const sortedOffers = sortOffers(offers)
-            setOffersToShow(sortedOffers)
             console.log("3")
+            setOffersToShow(sortedOffers)
         }
         else{
-            setOffersToShow(offers)
             console.log("4")
+            setOffersToShow(offers)
         }
     }
-
     useEffect(() => {
-        offersExist && sortAndFilter(offers)
-    }, [offers, sorted, filtered, months, offersExist])
+        offersExist && sortAndFilter()
+    },[offers, filtered, sorted, months, offersExist])
 
     return{offersToShow}
 }

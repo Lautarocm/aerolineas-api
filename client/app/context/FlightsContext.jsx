@@ -1,16 +1,18 @@
 "use client"
 
-import { createContext, useState, useEffect } from "react"
+import { createContext, useEffect, useState } from "react"
 
 export const FlightsContext = createContext({})
 
 export default function FlightsProvider({children}){
 
     const [offers, setOffers] = useState([])
+    const [loading, setLoading] = useState(false)
+    const [filtered, setFiltered] = useState(false)
+    const [sorted, setSorted] = useState(false)
+    const [months, setMonths] = useState([])
     const [offersExist, setOffersExist] = useState(false)
-    const [origin, setOrigin] = useState("")
-    const [destination, setDestination] = useState("")
-    
+
     useEffect(() => {
         if(Array.isArray(offers)){
             offers.length > 0 && setOffersExist(true)
@@ -18,7 +20,7 @@ export default function FlightsProvider({children}){
     }, [offers])
 
     return (
-        <FlightsContext.Provider value={{offers, offersExist, setOffers, setOffersExist, setOrigin, setDestination, origin, destination}}>
+        <FlightsContext.Provider value={{offers, setOffers, setLoading, loading, filtered, setFiltered, sorted, setSorted, months, setMonths, offersExist, setOffersExist}}>
             {children}
         </FlightsContext.Provider>
     )

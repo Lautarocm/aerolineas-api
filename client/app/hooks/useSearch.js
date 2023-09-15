@@ -4,18 +4,18 @@ import { FlightsContext } from "../context/FlightsContext"
 import { useSort } from "./useSort"
 import { useFilter } from "./useFilter"
 
-export function useSearch(){
+export function useSearch(origin, destination){
 
-    const [loading, setLoading] = useState(false)
     const [disableSearch, setDisableSearch] = useState(true)
-    const {setOffersExist, setOffers, origin, destination} = useContext(FlightsContext)
+    const {setOffers, setLoading} = useContext(FlightsContext)
     const {resetSort} = useSort()
     const {resetFilter} = useFilter()
+    const {setOffersExist} = useContext(FlightsContext)
 
 
     useEffect(() => {
         (origin && destination) && setDisableSearch(false)
-    })
+    },[origin, destination])
 
     const handleSearch = () => {
         
@@ -25,12 +25,12 @@ export function useSearch(){
         const query = queryParams.join("&")
         const url = `http://localhost:8080/scrape?${query}`
 
+        setLoading(true)
         resetFilter()
         resetSort()
         setOffersExist(false)
-        setLoading(true)
         getOffers(url).then(setOffers).finally(() => setLoading(false))
     }
 
-    return {handleSearch, loading, disableSearch}
+    return {handleSearch, disableSearch}
 }

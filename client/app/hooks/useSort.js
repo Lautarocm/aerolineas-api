@@ -1,19 +1,23 @@
-import { useState } from "react"
+import { useContext, useState } from "react"
+import { FlightsContext } from "../context/FlightsContext"
 
 export function useSort() {
 
-    const [sorted, setSorted] = useState(false)
+    const {setSorted} = useContext(FlightsContext)
 
     const handleSort = () => {
-      setSorted((state) => {
-        handleSort(!state)
-        return !state
-      })
+      setSorted(state => !state
+      )
     }
 
     const resetSort = () => {
       setSorted(false)
     }
 
-  return {sorted, handleSort, resetSort}
+    const sortOffers = (offers) => {
+      const sortedOffers = offers.slice().sort((a, b)=>a["price"]-b["price"])
+      return sortedOffers
+    }
+
+  return {handleSort, resetSort, sortOffers}
 }

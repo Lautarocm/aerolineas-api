@@ -1,9 +1,9 @@
-import { useContext, useState } from "react"
-import { FlightsContext } from "../context/FlightsContext"
+import { useState } from "react"
 
 export function useSelect(){
 
-    const {setOrigin, setDestination} = useContext(FlightsContext)
+    const [origin, setOrigin] = useState("")
+    const [destination, setDestination] = useState("")
 
     const handleOrigin = (selectValue) => {
         setOrigin(selectValue)
@@ -13,5 +13,5 @@ export function useSelect(){
         setDestination(selectValue)
     }
 
-    return {handleOrigin, handleDestination}
+    return {handleOrigin, handleDestination, origin, destination}
 }

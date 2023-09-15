@@ -58,24 +58,24 @@ const monthsArray = [
     }
 ]
 
-export function DropdownFilters({filterDisabled}){
+export function DropdownFilters({filterDisabled, filtered}){
 
-    const {handleFilter, months, handleChange} = useFilter()
+    const {months, handleFilter} = useFilter()
 
     return(
-        <Dropdown
-        onClose={() => {handleFilter(selectedMonths)}}>
+        <Dropdown>
             <DropdownTrigger>
-                <Button isDisabled={filterDisabled} className={flightsStyles.filter} size="xs" radius="full"><FontAwesomeIcon className="text-stone-400" icon={faFilter} /></Button>
+                <Button color={filtered ? "primary" : "default"} isDisabled={filterDisabled} className={flightsStyles.filter} size="xs" radius="full"><FontAwesomeIcon className="text-stone-400" icon={faFilter} /></Button>
             </DropdownTrigger>
             <DropdownMenu
             className={styles.ddMenu}
+            disallowEmptySelection={false}
             aria-label="filtrar por meses"
             closeOnSelect={false}
             selectionMode="multiple"
             variant="faded"
             selectedKeys={months}
-            onSelectionChange={handleChange}>
+            onSelectionChange={handleFilter}>
                 {monthsArray.map((month) => (
                     <DropdownItem color="primary"
                     key={month.key}

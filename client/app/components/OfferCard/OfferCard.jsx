@@ -7,8 +7,6 @@ export function OfferCard({offer}){
     
     const months = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
 
-    // if (offer["conections"] > 0){console.log("")}
-
     const dateString = offer["departures"][0].split("T")[0]
     const dateTime = new Date(dateString)
     const day = dateTime.getUTCDate()

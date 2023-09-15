@@ -3,22 +3,33 @@
 import styles from "./flights.module.css"
 import { Searchbox } from "../components/Searchbox/Searchbox";
 import { OffersContainer } from "../components/OffersContainer/OffersContainer";
-import { useSearch } from "../hooks/useSearch";
-import { useSelect } from "../hooks/useSelect";
-import FlightsProvider from "../context/FlightsContext";
+import FlightsProvider, { FlightsContext } from "../context/FlightsContext";
+import { useContext } from "react";
+
+function SearchContainer(){
+
+
+    const {offersExist} = useContext(FlightsContext)
+
+    return(
+        <div className={`${offersExist ? styles.fullHeight : ""} ${styles.searchContainer}`}>
+            <Searchbox />
+            <OffersContainer />
+        </div>
+    )
+}
 
 export default function Flights(){
 
-    const {origin, destination} = useSelect()
-    const {offersExist} = useSearch(origin, destination)
+
+
+    console.log("renderizando padre")
 
     return(
         <FlightsProvider>
+            
             <div className={styles.flightsContainer}>
-                <div className={`${offersExist ? styles.fullHeight : ""} ${styles.searchContainer}`}>
-                    <Searchbox />
-                    <OffersContainer />
-                </div>
+                <SearchContainer />
             </div>
         </FlightsProvider>
     )

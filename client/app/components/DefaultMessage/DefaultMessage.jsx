@@ -10,8 +10,9 @@ export function DefaultMessage(){
 
     return(
         <>
-            {offers == [] && <span className={styles.defaultMessage}>Elegí a donde volar</span>}
-            {offers == null && <span className={styles.defaultMessage}>No hay vuelos</span>}
+            {offers == null ? 
+            <span className={styles.defaultMessage}>No hay vuelos</span> :
+            (Array.isArray(offers) && offers.length == 0) && <span className={styles.defaultMessage}>Elegí a donde volar</span>}
         </>
     )
 }
