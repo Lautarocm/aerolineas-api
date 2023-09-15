@@ -58,14 +58,14 @@ const monthsArray = [
     }
 ]
 
-export function DropdownFilters({filterDisabled, filtered}){
+export function DropdownFilters({className, filterDisabled, filtered}){
 
     const {months, handleFilter} = useFilter()
 
     return(
         <Dropdown>
             <DropdownTrigger>
-                <Button color={filtered ? "primary" : "default"} isDisabled={filterDisabled} className={flightsStyles.filter} size="xs" radius="full"><FontAwesomeIcon className="text-stone-400" icon={faFilter} /></Button>
+                <Button className={className} color={filtered ? "primary" : "default"} isDisabled={filterDisabled} size="xs" radius="full"><FontAwesomeIcon className="text-stone-400" icon={faFilter} /></Button>
             </DropdownTrigger>
             <DropdownMenu
             className={styles.ddMenu}
